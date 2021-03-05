@@ -9,7 +9,30 @@
 
 if test "$EUID" != 0; then
     # normal user
-    ##disable Xfce automount features
+	##exit early if arguments present
+	exitearly=false
+
+	if [ -n "$1" ]; then
+		exitearly=true
+	fi
+
+	#exit early if not live
+
+	if ! grep -sq '^overlay /live/aufs' /proc/mounts; then
+		exitearly=true
+	fi  
+	
+	
+	if [ "$exitearly" = "true" ]; then
+		echo ""
+		echo "INFORMATION: Non-live enviroment or options not supported"
+		echo "             use alternate authentication to launch installer"
+		echo "             sudo minstall [OPTIONS]"
+		echo ""
+		exit 0
+	fi
+
+	##disable Xfce automount features
 
     INITIALAUTOMOUNT=false
     if command -v xfconf-query >/dev/null && \
@@ -47,7 +70,7 @@ if test "$EUID" != 0; then
 		AUTHENTICATION="su-to-root -X -c"
    fi
     
-    $AUTHENTICATION /usr/bin/minstall-launcher "--qtenv" "$QTENV" "${@}"
+    $AUTHENTICATION /usr/bin/minstall-launcher "--qtenv" "$QTENV"
     if [ -f "$QTENV" ] ; then
        rm  $QTENV
     fi
