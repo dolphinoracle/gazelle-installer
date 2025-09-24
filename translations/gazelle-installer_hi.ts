@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="hi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="hi">
 <context>
     <name>AutoPart</name>
     <message>
@@ -18,23 +16,23 @@
         <location filename="../autopart.cpp" line="162"/>
         <source>Recommended: %1
 Minimum: %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../autopart.cpp" line="203"/>
         <source>Layout Builder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../autopart.cpp" line="348"/>
         <source>%1% root
 %2% home</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../autopart.cpp" line="350"/>
         <source>Combined root and home</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -42,12 +40,12 @@ Minimum: %2</source>
     <message>
         <location filename="../base.cpp" line="66"/>
         <source>Cannot access installation media.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../base.cpp" line="161"/>
         <source>Failed to delete old system on destination.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../base.cpp" line="164"/>
@@ -57,7 +55,7 @@ Minimum: %2</source>
     <message>
         <location filename="../base.cpp" line="187"/>
         <source>Failed to set the system configuration.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../base.cpp" line="189"/>
@@ -72,7 +70,7 @@ Minimum: %2</source>
     <message>
         <location filename="../base.cpp" line="300"/>
         <source>Failed to copy the new system.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -95,7 +93,7 @@ Minimum: %2</source>
     <message>
         <location filename="../bootman.cpp" line="296"/>
         <source>Failed to update initramfs.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bootman.cpp" line="321"/>
@@ -114,22 +112,22 @@ Minimum: %2</source>
     <message>
         <location filename="../checkmd5.cpp" line="41"/>
         <source>Checking installation media.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../checkmd5.cpp" line="42"/>
         <source>Press ESC to skip.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../checkmd5.cpp" line="61"/>
         <source>The installation media is corrupt.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../checkmd5.cpp" line="144"/>
         <source>Are you sure you want to skip checking the installation media?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -152,7 +150,7 @@ Do you want to continue the installation?</source>
     <message>
         <location filename="../minstall.cpp" line="193"/>
         <source>The %1 installer will now perform the requested actions.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="194"/>
@@ -189,7 +187,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -214,7 +212,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="425"/>
         <source>Configuring system. Please wait.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="429"/>
@@ -224,7 +222,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="434"/>
         <source>The installation was aborted.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="458"/>
@@ -235,10 +233,6 @@ Enjoy using %1</source>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>विन्यास फाइल (%1) में अमान्य सेटिंग्स मिली। कृपया प्रक्रिया के दौरान चिन्हित क्षेत्रों पर ध्यान दें।</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">चेतावनी : चयनित ड्राइव की क्षमता कम-से-कम 2टीबी की है व इस हेतु GPT विभाजन विधि आवश्यक है। कुछ सिस्टम पर GPT डिस्क आरंभ नहीं होती है।</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -293,17 +287,17 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="669"/>
         <source>The drive can be divided into separate system (root) and user data (home) partitions using the slider.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="670"/>
         <source>The &lt;b&gt;root&lt;/b&gt; partition will contain the operating system and applications.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="671"/>
         <source>The &lt;b&gt;home&lt;/b&gt; partition will contain the data of all users, such as their settings, files, documents, pictures, music, videos, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="672"/>
@@ -337,7 +331,7 @@ Enjoy using %1</source>
         <location filename="../minstall.cpp" line="678"/>
         <location filename="../minstall.cpp" line="759"/>
         <source>A separate unencrypted boot partition is required.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="679"/>
@@ -377,17 +371,17 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="691"/>
         <source>&lt;i&gt;Use For&lt;/i&gt; - To use this partition in an installation, you must select something here.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="693"/>
         <source>Format without mounting</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="694"/>
         <source>BIOS Boot GPT partition for GRUB</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="695"/>
@@ -398,47 +392,47 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="697"/>
         <source>Boot manager</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="698"/>
         <source>System root</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="699"/>
         <source>User data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="700"/>
         <source>Static data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="701"/>
         <source>Variable data</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="702"/>
         <source>Temporary files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="703"/>
         <source>Swap files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="704"/>
         <source>Swap partition</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="706"/>
         <source>In addition to the above, you can also type your own mount point. Custom mount points must start with a slash (&quot;/&quot;).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="707"/>
@@ -448,7 +442,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="708"/>
         <source>&lt;i&gt;Encrypt&lt;/i&gt; - Use LUKS encryption for this partition. The password applies to all partitions selected for encryption.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="709"/>
@@ -458,17 +452,17 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="711"/>
         <source>Selecting &lt;b&gt;Preserve /home&lt;/b&gt; for the root partition preserves the contents of the /home directory, deleting everything else. This option can only be used when /home is on the same partition as the root partition.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="713"/>
         <source>The ext2, ext3, ext4, jfs, xfs and btrfs Linux filesystems are supported and ext4 is recommended.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="714"/>
         <source>&lt;i&gt;Check&lt;/i&gt; - Check and correct for bad blocks on the drive (not supported for all formats). This is very time consuming, so you may want to skip this step unless you suspect that your drive has bad blocks.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="716"/>
@@ -478,12 +472,12 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="717"/>
         <source>&lt;i&gt;Dump&lt;/i&gt; - Instructs the dump utility to include this partition in the backup.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="718"/>
         <source>&lt;i&gt;Pass&lt;/i&gt; - The sequence in which this file system is to be checked at boot. If zero, the file system is not checked.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="719"/>
@@ -523,62 +517,62 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="730"/>
         <source>Active partition</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="731"/>
         <source>For the installed operating system to boot, the appropriate partition (usually the boot or root partition) must be the marked as active.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="732"/>
         <source>The active partition of a drive can be chosen using the &lt;b&gt;Active partition&lt;/b&gt; menu action.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="733"/>
         <source>A partition with an asterisk (*) next to its device name is, or will become, the active partition.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="735"/>
         <source>If your system uses the Extensible Firmware Interface (EFI), a partition known as the EFI System Partition (ESP) is required for the system to boot.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="736"/>
         <source>These systems do not require any partition marked as Active, but instead require a partition formatted with a FAT file system, marked as an ESP.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="737"/>
         <source>Most systems built within the last 10 years use EFI.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="738"/>
         <source>Boot partition</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="739"/>
         <source>This partition is generally only required for root partitions on virtual devices such as encrypted, LVM or software RAID volumes.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="740"/>
         <source>It contains a basic kernel and drivers used to access the encrypted disk or virtual devices.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="741"/>
         <source>BIOS-GRUB partition</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="742"/>
         <source>When using a GPT-formatted drive on a non-EFI system, a 1MB BIOS boot partition is required when using GRUB.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="743"/>
@@ -588,7 +582,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="744"/>
         <source>Just right-click on a drive and select &lt;b&gt;Layout Builder&lt;/b&gt; from the menu. This can create a layout similar to that of the regular install.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="745"/>
@@ -598,12 +592,12 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="746"/>
         <source>To upgrade from an existing Linux installation, select the same home partition as before and select &lt;b&gt;Preserve&lt;/b&gt; as the format.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="747"/>
         <source>If you do not use a separate home partition, select &lt;b&gt;Preserve /home&lt;/b&gt; on the root file system entry to preserve the existing /home directory located on your root partition. The installer will only preserve /home, and will delete everything else. As a result, the installation will take much longer than usual.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="749"/>
@@ -613,7 +607,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="750"/>
         <source>For %1, you may choose to format the partitions as ext2, ext3, ext4, f2fs, jfs, xfs or btrfs.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="751"/>
@@ -633,12 +627,12 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="760"/>
         <source>To preserve an encrypted partition, right-click on it and select &lt;b&gt;Unlock&lt;/b&gt;. In the dialog that appears, enter a name for the virtual device and the password. When the device is unlocked, the name you chose will appear under &lt;i&gt;Virtual Devices&lt;/i&gt;, with similar options to that of a regular partition.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="762"/>
         <source>For the encrypted partition to be unlocked at boot, it needs to be added to the crypttab file. Use the &lt;b&gt;Add to crypttab&lt;/b&gt; menu action to do this.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="763"/>
@@ -653,47 +647,47 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="765"/>
         <source>Subvolumes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="766"/>
         <source>Some file systems, such as Btrfs, support multiple subvolumes in a single partition. These are not physical subdivisions, and so their order does not matter.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="768"/>
         <source>Use the &lt;b&gt;Scan subvolumes&lt;/b&gt; menu action to search an existing Btrfs partition for subvolumes. To create a new subvolume, use the &lt;b&gt;New subvolume&lt;/b&gt; menu action.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="770"/>
         <source>Existing subvolumes can be preserved, however the name must remain the same.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="771"/>
         <source>Virtual Devices</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="772"/>
         <source>If the installer detects any virtual devices such as opened LUKS partitions, LVM logical volumes or software-based RAID volumes, they may be used for the installation.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="773"/>
         <source>The use of virtual devices (beyond preserving encrypted file systems) is an advanced feature. You may have to edit some files (eg. initramfs, crypttab, fstab) to ensure the virtual devices used are created upon boot.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="783"/>
         <source>Final Review and Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="784"/>
         <source>Please review this list carefully. This is the last opportunity to check, review and confirm the actions of the installation process before proceeding.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="791"/>
@@ -703,42 +697,42 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="792"/>
         <source>%1 uses the GRUB bootloader to boot %1 and Microsoft Windows.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="793"/>
         <source>By default GRUB is installed in the Master Boot Record (MBR) or ESP (EFI System Partition for 64-bit UEFI boot systems) of your boot drive and replaces the boot loader you were using before. This is normal.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="794"/>
         <source>If you choose to install GRUB to Partition Boot Record (PBR) instead, then GRUB will be installed at the beginning of the specified partition. This option is for experts only.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="795"/>
         <source>If you uncheck the Install GRUB box, GRUB will not be installed at this time. This option is for experts only.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="796"/>
         <source>Create a swap file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="797"/>
         <source>A swap file is more flexible than a swap partition; it is considerably easier to resize a swap file to adapt to changes in system usage.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="798"/>
         <source>By default, this is checked if no swap partitions have been set, and unchecked if swap partitions are set. This option should be left untouched, and is for experts only.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="799"/>
         <source>Setting the size to 0 has the same effect as unchecking this option.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="805"/>
@@ -793,31 +787,27 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">कई अन्य ऑपरेटिंग सिस्टम में रूट उपयोक्ता प्रशासक उपयोक्ता के समान होता है। रूट उपयोक्ता को अपने दैनिक उपयोक्ता अकाउंट के रूप उपयोग न करें। कृपया दैनिक उपयोग के लिए अपने नवीन (डिफ़ॉल्ट) उपयोक्ता अकाउंट हेतु नाम दर्ज करें। आप बाद में आवश्यकता अनुसार %1 उपयोक्ता प्रबंधक उपयोग कर अन्य उपयोक्ता अकाउंट जोड़ सकते हैं।</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -937,7 +927,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="902"/>
         <source>Enjoy using %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="928"/>
@@ -1057,17 +1047,17 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../meinstall.ui" line="232"/>
         <source>Keyboard Settings</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="247"/>
         <source>Model:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="262"/>
         <source>Variant:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="282"/>
@@ -1077,7 +1067,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../meinstall.ui" line="294"/>
         <source>Layout:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="348"/>
@@ -1113,13 +1103,13 @@ Do you really want to stop now?</source>
         <location filename="../meinstall.ui" line="505"/>
         <location filename="../meinstall.ui" line="527"/>
         <source>%</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="540"/>
         <location filename="../meinstall.ui" line="1027"/>
         <source>Enable hibernation support</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="547"/>
@@ -1134,12 +1124,12 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../meinstall.ui" line="602"/>
         <source>Show Grid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="609"/>
         <source>Ctrl+G</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="591"/>
@@ -1169,7 +1159,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../meinstall.ui" line="680"/>
         <source>Show advanced fields.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="713"/>
@@ -1189,7 +1179,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../meinstall.ui" line="779"/>
         <source>Installation Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="817"/>
@@ -1244,17 +1234,17 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../meinstall.ui" line="960"/>
         <source>Create a swap file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="977"/>
         <source> MB</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="997"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1020"/>
@@ -1467,7 +1457,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>क्षमा करें, आपके कंप्यूटर नाम में अमान्य अक्षर हैं।
 कृपया प्रक्रिया जारी
@@ -1481,7 +1471,7 @@ name before proceeding.</source>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>क्षमा करें, आपके कंप्यूटर डोमेन में अमान्य अक्षर हैं।
 कृपया प्रक्रिया जारी
@@ -1509,12 +1499,12 @@ Please select a different name.</source>
     <message>
         <location filename="../oobe.cpp" line="551"/>
         <source>You did not provide a passphrase for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../oobe.cpp" line="552"/>
         <source>Are you sure you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../oobe.cpp" line="558"/>
@@ -1549,7 +1539,7 @@ Please select a different name.</source>
     <message>
         <location filename="../oobe.cpp" line="666"/>
         <source>Failed to set ownership or permissions of user directory.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1557,7 +1547,7 @@ Please select a different name.</source>
     <message>
         <location filename="../partman.cpp" line="216"/>
         <source>Virtual Devices</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="444"/>
@@ -1573,28 +1563,28 @@ Please select a different name.</source>
     <message>
         <location filename="../partman.cpp" line="455"/>
         <source>&amp;Lock</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="459"/>
         <source>&amp;Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="463"/>
         <location filename="../partman.cpp" line="616"/>
         <source>Add to crypttab</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="470"/>
         <source>New subvolume</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="471"/>
         <source>Scan subvolumes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="494"/>
@@ -1609,57 +1599,37 @@ Please select a different name.</source>
     <message>
         <location filename="../partman.cpp" line="497"/>
         <source>Layout &amp;Builder...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="518"/>
         <source>Default subvolume</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="519"/>
         <source>Remove subvolume</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="614"/>
         <source>Unlock Drive</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="619"/>
         <source>Password:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="645"/>
         <source>Could not unlock device. Possible incorrect password.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">%1 का अमान्य उपयोग : %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">इस हेतु %1 पहले से चयनित है : %2</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">रूट (/) में /home को संरक्षित करना संभव नहीं है यदि एक पृथक /home विभाजन भी माउंट है।</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">%1 का %2 के रूप में पुनःउपयोग करें (पुनः फॉर्मेट नहीं)</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">रूट का एन्क्रिप्शन करते समय एक पृथक बूट विभाजन का चयन आवश्यक है।</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -1694,12 +1664,12 @@ Please select a different name.</source>
     <message>
         <location filename="../partman.cpp" line="1071"/>
         <source>Failed to prepare required partitions.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1110"/>
         <source>Preparing partition tables</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1137"/>
@@ -1709,22 +1679,22 @@ Please select a different name.</source>
     <message>
         <location filename="../partman.cpp" line="1200"/>
         <source>Failed to format LUKS container.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1204"/>
         <source>Creating encrypted volume: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1213"/>
         <source>Failed to open LUKS container.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1226"/>
         <source>Failed to format partition.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1233"/>
@@ -1734,17 +1704,17 @@ Please select a different name.</source>
     <message>
         <location filename="../partman.cpp" line="1300"/>
         <source>Failed to prepare subvolumes.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1301"/>
         <source>Preparing subvolumes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1413"/>
         <source>Failed to mount partition.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="1426"/>
@@ -1757,22 +1727,22 @@ Please select a different name.</source>
     <message>
         <location filename="../partman.cpp" line="2507"/>
         <source>&amp;Templates</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="2514"/>
         <source>Compression (Z&amp;STD)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="2516"/>
         <source>Compression (&amp;LZO)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../partman.cpp" line="2518"/>
         <source>Compression (&amp;ZLIB)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1780,47 +1750,47 @@ Please select a different name.</source>
     <message>
         <location filename="../passedit.cpp" line="143"/>
         <source>Negligible</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="143"/>
         <source>Very weak</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="143"/>
         <source>Weak</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="144"/>
         <source>Moderate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="144"/>
         <source>Strong</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="144"/>
         <source>Very strong</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="146"/>
         <source>Password strength: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="179"/>
         <source>Hide the password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../passedit.cpp" line="179"/>
         <source>Show the password</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1862,12 +1832,12 @@ Please note, this is experimental. Future installer versions may break compatibi
     <message>
         <location filename="../app.cpp" line="104"/>
         <source>Shutdown automatically when done installing.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app.cpp" line="105"/>
         <source>Do not unmount /mnt/antiX or close any of the associated LUKS containers when finished.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app.cpp" line="106"/>
@@ -1893,7 +1863,7 @@ This will start automatically if installed with --oem option.</source>
     <message>
         <location filename="../app.cpp" line="112"/>
         <source>Reboots automatically when done installing.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app.cpp" line="113"/>
@@ -1905,13 +1875,13 @@ This will start automatically if installed with --oem option.</source>
     <message>
         <location filename="../app.cpp" line="115"/>
         <source>Always check the installation media at the beginning.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app.cpp" line="116"/>
         <source>Do not check the installation media at the beginning.
 Not recommended unless the installation media is guaranteed to be free from errors.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app.cpp" line="118"/>
@@ -1921,7 +1891,7 @@ Not recommended unless the installation media is guaranteed to be free from erro
     <message>
         <location filename="../app.cpp" line="122"/>
         <source>Too many arguments. Please check the command format by running the program with --help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../app.cpp" line="132"/>
@@ -1930,7 +1900,7 @@ Not recommended unless the installation media is guaranteed to be free from erro
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>इंस्टॉलर आरंभ विफल क्योंकि प्रतीत होता है कि वह पहले से ही बैकग्राउंड में कार्यरत है।
@@ -1953,27 +1923,27 @@ Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</sou
     <message>
         <location filename="../swapman.cpp" line="66"/>
         <source>Invalid location</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../swapman.cpp" line="69"/>
         <source>Maximum: %1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../swapman.cpp" line="84"/>
         <source>Failed to create or install swap file.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../swapman.cpp" line="90"/>
         <source>Creating swap file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../swapman.cpp" line="106"/>
         <source>Configuring swap file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fr_BE">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="fr_BE">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Impossible de trouver le lecteur sélectionné.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Profitez du plaisir d’utiliser %1</translation>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>Paramètres incorrects trouvés dans le fichier de configuration (%1). Veuillez vérifier les champs indiqués au fur et à mesure.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">ATTENTION: Le disque sélectionné possède une capacité d’au moins 2TB et doit être formaté en utilisant GPT. Sur certains systèmes, un disque formaté en GPT peut ne pas démarrer.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Formater et utiliser la totalité du disque (%1) pour %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -300,7 +290,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="669"/>
         <source>The drive can be divided into separate system (root) and user data (home) partitions using the slider.</source>
-        <translation>Le disque peut être divisé en partitions distinctes pour le système (root) et les données utilisateur (home) à l’aide du curseur.</translation>
+        <translation>Le disque peut être divisé en partitions distinctes pour le système (root) et les données utilisateur•rice (home) à l’aide du curseur.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="670"/>
@@ -310,7 +300,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="671"/>
         <source>The &lt;b&gt;home&lt;/b&gt; partition will contain the data of all users, such as their settings, files, documents, pictures, music, videos, etc.</source>
-        <translation>La partition &lt;b&gt;home&lt;/b&gt; contiendra les données de tous les utilisateurs, telles que leurs configurations, fichiers, documents, images, musiques, vidéos, etc.</translation>
+        <translation>La partition &lt;b&gt;home&lt;/b&gt; contiendra les données de tous/toutes les utilisateurs•rices, telles que leurs configurations, fichiers, documents, images, musiques, vidéos, etc.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="672"/>
@@ -415,7 +405,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="699"/>
         <source>User data</source>
-        <translation>Données de l’utilisateur</translation>
+        <translation>Données de l’utilisateur•rice</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="700"/>
@@ -765,7 +755,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="820"/>
         <source>Set the default locale. This will apply unless they are overridden later by the user.</source>
-        <translation>Définit la locale par défaut. Elle s’appliquera sauf si elle est remplacée ultérieurement par l’utilisateur.</translation>
+        <translation>Définit la locale par défaut. Elle s’appliquera sauf si elle est remplacée ultérieurement par l’utilisateur•rice.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="821"/>
@@ -790,41 +780,37 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="827"/>
         <source>Most users should not change the defaults. Users with low-resource computers sometimes want to disable unneeded services in order to keep the RAM usage as low as possible. Make sure you know what you are doing!</source>
-        <translation>La plupart des utilisateurs ne devraient pas modifier les valeurs par défaut. Les utilisateurs disposant d’ordinateurs à faibles ressources souhaitent parfois désactiver les services inutiles afin de limiter au maximum l’utilisation de la RAM. Assurez-vous de savoir ce que vous faites!</translation>
+        <translation>La plupart des utilisateurs•rices ne devraient pas modifier les valeurs par défaut. Les utilisateurs•rices disposant d’ordinateurs à faibles ressources souhaitent parfois désactiver les services inutiles afin de limiter au maximum l’utilisation de la RAM. Assurez-vous de savoir ce que vous faites!</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="833"/>
         <source>Default User Login</source>
-        <translation>Login utilisateur par défaut</translation>
+        <translation>Login utilisateur•rice par défaut</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veuillez saisir le nom d’un nouveau compte d’utilisateur•rice (par défaut) que vous utiliserez quotidiennement. Si nécessaire, vous pouvez ajouter d’autres comptes d’utilisateurs•rices ultérieurement avec le Gestionnaire d’utilisateurs•rices %1 User Manager.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Compte root (administrateur•rice)</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>L’utilisateur•rice root est similaire à l’utilisateur•rice administrateur•rice dans d’autres systèmes d’exploitation. Vous ne pouvez pas utiliser l’utilisateur•rice root comme compte d’utilisateur•rice quotidien•ne.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le compte root est désactivé sur MX Linux, car les tâches administratives sont effectuées avec une invite d’élévation pour l’utilisateur•rice par défaut.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">L’utilisateur root est similaire à l’utilisateur Administrateur dans certains autres systèmes d’exploitation. Vous ne devez pas utiliser l’utilisateur root comme compte d’utilisateur quotidien. Veuillez saisir le nom d’un nouveau compte utilisateur (par défaut) que vous utiliserez quotidiennement. Si nécessaire, vous pourrez ajouter d’autres comptes d’utilisateur ultérieurement avec %1 User Manager.</translation>
+        <translation>L’activation du compte root est fortement recommandée pour antiX Linux.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -834,7 +820,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="842"/>
         <source>Enter a new password for your default user account and for the root account. Each password must be entered twice.</source>
-        <translation>Saisissez un nouveau mot de passe pour votre compte utilisateur par défaut et pour le compte root. Chaque mot de passe doit être saisi deux fois.</translation>
+        <translation>Saisissez un nouveau mot de passe pour votre compte utilisateur•rice par défaut et pour le compte root. Chaque mot de passe doit être saisi deux fois.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="844"/>
@@ -844,12 +830,12 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="845"/>
         <source>If you want the default user account to have no password, leave its password fields empty. This allows you to log in without requiring a password.</source>
-        <translation>Si vous souhaitez que le compte utilisateur par défaut n’ait pas de mot de passe, laissez ses champs de mot de passe vides. Cela vous permet de vous connecter sans avoir besoin d’un mot de passe.</translation>
+        <translation>Si vous souhaitez que le compte utilisateur•rice par défaut n’ait pas de mot de passe, laissez ses champs de mot de passe vides. Cela vous permet de vous connecter sans avoir besoin d’un mot de passe.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="847"/>
         <source>Obviously, this should only be done in situations where the user account does not need to be secure, such as a public terminal.</source>
-        <translation>Évidemment, cela ne devrait être fait que dans des situations où le compte utilisateur n’a pas besoin d’être sécurisé, comme un terminal public.</translation>
+        <translation>Évidemment, cela ne devrait être fait que dans des situations où le compte utilisateur•rice n’a pas besoin d’être sécurisé, comme un terminal public.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="855"/>
@@ -859,7 +845,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="856"/>
         <source>A home directory already exists for the user name you have chosen. This screen allows you to choose what happens to this directory.</source>
-        <translation>Un répertoire home existe déjà avec le nom d’utilisateur choisi. Cet écran vous permettra de choisir ce qu’il adviendra de ce répertoire.</translation>
+        <translation>Un répertoire home existe déjà avec le nom d’utilisateur•rice choisi. Cet écran vous permettra de choisir ce qu’il adviendra de ce répertoire.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="858"/>
@@ -869,7 +855,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="859"/>
         <source>The old home directory will be used for this user account. This is a good choice when upgrading, and your files and settings will be readily available.</source>
-        <translation>L’ancien répertoire home sera utilisé pour ce compte utilisateur. C’est un bon choix lors d’une mise à niveau, et vos fichier et paramètres seront rapidement disponibles.</translation>
+        <translation>L’ancien répertoire home sera utilisé pour ce compte utilisateur•rice. C’est un bon choix lors d’une mise à niveau, et vos fichier et paramètres seront rapidement disponibles.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="861"/>
@@ -879,7 +865,7 @@ Profitez du plaisir d’utiliser %1</translation>
     <message>
         <location filename="../minstall.cpp" line="862"/>
         <source>A new home directory will be created for the user, but the old home directory will be renamed. Your files and settings will not be immediately visible in the new installation, but can be accessed using the renamed directory.</source>
-        <translation>Un nouveau répertoire home sera crée pour l’utilisateur, et l’ancien répertoire sera renommé. Vos fichiers et paramètres ne seront pas immédiatement visibles dans la nouvelle installation, mais ils seront accessibles en utilisant le répertoire renommé.</translation>
+        <translation>Un nouveau répertoire home sera crée pour l’utilisateur•rice, et l’ancien répertoire sera renommé. Vos fichiers et paramètres ne seront pas immédiatement visibles dans la nouvelle installation, mais ils seront accessibles en utilisant le répertoire renommé.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="864"/>
@@ -1376,32 +1362,32 @@ Voulez-vous vraiment quitter maintenant?</translation>
     <message>
         <location filename="../meinstall.ui" line="1530"/>
         <source>Default User Account</source>
-        <translation>Compte Utilisateur par défaut</translation>
+        <translation>Compte utilisateur•rice par défaut</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1542"/>
         <source>Default user login name:</source>
-        <translation>Nom d’utilisateur par défaut:</translation>
+        <translation>Nom d’utilisateur•rice par défaut:</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1558"/>
         <source>username</source>
-        <translation>nom d’utilisateur</translation>
+        <translation>nom d’utilisateur•rice</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1571"/>
         <source>Default user password:</source>
-        <translation>Mot de passe utilisateur par défaut:</translation>
+        <translation>Mot de passe utilisateur•rice par défaut:</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1597"/>
         <source>Confirm user password:</source>
-        <translation>Confirmer le mot de passe utilisateur:</translation>
+        <translation>Confirmer le mot de passe utilisateur•rice:</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1626"/>
         <source>Root (administrator) Account</source>
-        <translation>Compte root (administrateur)</translation>
+        <translation>Compte root (administrateur•rice)</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1644"/>
@@ -1474,7 +1460,7 @@ Voulez-vous vraiment quitter maintenant?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Désolé mais le nom de votre ordinateur contient des caractères non valides. 
 Veuillez choisir un nom différent avant de continuer.</translation>
@@ -1487,7 +1473,7 @@ Veuillez choisir un nom différent avant de continuer.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Désolé mais le nom de domaine contient des caractères invalides.
 Veuillez choisir un nom différent avant de continuer.</translation>
@@ -1501,7 +1487,7 @@ Veuillez choisir un nom différent avant de continuer.</translation>
         <location filename="../oobe.cpp" line="531"/>
         <source>The user name cannot contain special characters or spaces.
 Please choose another name before proceeding.</source>
-        <translation>Le nom d’utilisateur ne peut pas contenir de caractères spéciaux ni d’espaces.
+        <translation>Le nom d’utilisateur•rice ne peut pas contenir de caractères spéciaux ni d’espaces.
 Veuillez choisir un autre nom avant de poursuivre.</translation>
     </message>
     <message>
@@ -1529,7 +1515,7 @@ Veuillez choisir un nom différent.</translation>
     <message>
         <location filename="../oobe.cpp" line="571"/>
         <source>Failed to set user account passwords.</source>
-        <translation>Les mots de passe du compte utilisateur n’ont pas pu être crées.</translation>
+        <translation>Les mots de passe du compte utilisateur•rice n’ont pas pu être crées.</translation>
     </message>
     <message>
         <location filename="../oobe.cpp" line="597"/>
@@ -1544,17 +1530,17 @@ Veuillez choisir un nom différent.</translation>
     <message>
         <location filename="../oobe.cpp" line="627"/>
         <source>Sorry, failed to create user directory.</source>
-        <translation>Désolé, la création du répertoire utilisateur a échoué.</translation>
+        <translation>Désolé, la création du répertoire de l’utilisateur•rice a échoué.</translation>
     </message>
     <message>
         <location filename="../oobe.cpp" line="630"/>
         <source>Sorry, failed to name user directory.</source>
-        <translation>Désolé, le nommage du répertoire utilisateur a échoué.</translation>
+        <translation>Désolé, impossible de nommer le répertoire de l’utilisateur•rice.</translation>
     </message>
     <message>
         <location filename="../oobe.cpp" line="666"/>
         <source>Failed to set ownership or permissions of user directory.</source>
-        <translation>Impossible de définir la propriété ou les autorisations du répertoire de l’utilisateur.</translation>
+        <translation>Impossible de définir la propriété ou les autorisations du répertoire de l’utilisateur•rice.</translation>
     </message>
 </context>
 <context>
@@ -1645,118 +1631,6 @@ Veuillez choisir un nom différent.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Impossible de fermer %1</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Étiquette de sous-volume non valide</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Doublon d’étiquette de sous-volume</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Utilisation non valide pour %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 est déjà sélectionné pour: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Une partition racine « root » d’au moins %1 est requise.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Impossible de préserver /home à l’intérieur de root (/) si une partition /home séparée est également montée.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Préparer la table de partition %1 sur %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Réutilisation (pas de reformatage) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Formatage %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Format %1 à utiliser pour %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Réutilisation (pas de reformatage) %1 comme %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Effacer les données sur %1 sauf pour /home, à utiliser pour %2</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Créer %1 sans formatage</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Créer %1, format à utiliser pour %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Réutiliser le sous-volume %1 en tant que %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Supprimer le sous-volume %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Écraser le sous-volume %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Écraser le sous-volume %1 pour l’utiliser pour %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Créer le sous-volume %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Créer le sous-volume %1 pour l’utiliser pour %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Vous devez choisir une partition d’amorçage « boot partition » séparée lorsque vous cryptez la racine « root ».</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Êtes-vous certain•e de vouloir continuer?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) exige %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">L’installation peut échouer parce que les volumes suivants sont trop petits:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Ce système utilise l’EFI, mais aucune partition système EFI valide n’a été attribuée à /boot/efi séparément.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Le volume attribué à /boot/efi n’est pas une partition système EFI valide.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Les disques suivants sont, ou seront, configurés avec GPT, mais n’ont pas de partition BIOS-GRUB:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Ce système ne peut pas démarrer à partir de disques GPT sans une partition BIOS-GRUB.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -1971,8 +1845,8 @@ Veuillez noter que ceci est expérimental. Les futures versions de l’installat
         <source>Install the operating system, delaying prompts for user-specific options until the first reboot.
 Upon rebooting, the installer will be run with --oobe so that the user can provide these details.
 This is useful for OEM installations, selling or giving away a computer with an OS pre-loaded on it.</source>
-        <translation>Installer le système d’exploitation, en retardant les invites pour les options spécifiques à l’utilisateur jusqu’au premier redémarrage.
-Au redémarrage, le programme d’installation sera lancé avec --oobe pour que l’utilisateur puisse fournir ces détails.
+        <translation>Installer le système d’exploitation, en retardant les invites pour les options spécifiques de l’utilisateur•rice jusqu’au premier redémarrage.
+Au redémarrage, le programme d’installation sera lancé avec --oobe pour que l’utilisateur•rice puisse fournir ces détails.
 Ceci est utile pour les installations OEM, pour vendre ou donner un ordinateur avec un système d’exploitation préchargé dessus.</translation>
     </message>
     <message>
@@ -2028,7 +1902,7 @@ Non recommandé sauf si le support d’installation est garanti sans erreur.</tr
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Le programme d’installation ne peut démarrer car il semblerait qu’il soit déjà lancé en arrière-plan.

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="hu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="hu">
 <context>
     <name>AutoPart</name>
     <message>
@@ -102,7 +100,7 @@ Minimum: %2</translation>
     <message>
         <location filename="../bootman.cpp" line="321"/>
         <source>System boot disk:</source>
-        <translation>Rendszer indító lemez:</translation>
+        <translation>Rendszerindító lemez:</translation>
     </message>
     <message>
         <location filename="../bootman.cpp" line="336"/>
@@ -169,7 +167,7 @@ Szeretné folytatni a telepítést?</translation>
 %1 is supported by people like you. Some help others at the support forum - %2, or translate help files into different languages, or make suggestions, write documentation, or help test new software.</source>
         <translation>Támogassa az %1-ot!
 
-Az %1 támogatói olyan emberek mint ön. Néhányan segítenek másoknak a támogatási fórumon - %2, vagy különböző nyelvekre fordítják a súgófájlokat, vagy javaslatokat tesznek, dokumentációt írnak, vagy segítenek új szoftverek tesztelésében.</translation>
+Az %1 támogatói olyan emberek mint ön. Néhányan másoknak segítenek a támogatási fórumon - %2, vagy különböző nyelvekre fordítják a súgófájlokat, hasznos javaslatokat tesznek, dokumentációt írnak, vagy segítenek az új szoftverek tesztelésében.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="249"/>
@@ -180,7 +178,7 @@ Az %1 támogatói olyan emberek mint ön. Néhányan segítenek másoknak a tám
 Enjoy using %1</source>
         <translation>Az %1 egy független, a Debian stabil változatán alapuló Linux disztribúció.
 
-A %1 használ néhány komponenst a MEPIS Linuxból is, amelyek egy szabad Apache licenc alatt érhetők el. Néhány MEPIS komponenst módosítottunk az %1 igényeihez.
+A %1 használ néhány komponenst a MEPIS Linuxból is, amelyek az Apache szabad szofver licenc alatt érhetők el. A MEPIS bizonyos összetevőit az %1 igényeihez alakítottuk.
 
 Használja örömmel az %1-ot</translation>
     </message>
@@ -192,7 +190,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>A kiválasztott meghajtó nem található.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -240,14 +238,6 @@ Használja örömmel az %1-ot</translation>
         <translation>Érvénytelen beállítások találhatók a konfigurációs fájlban (%1). Ellenőrizze a megjelölt mezőket, amint találkozik velük.</translation>
     </message>
     <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">FIGYELMEZTETÉS: A kiválasztott meghajtó kapacitása legalább 2 TB, és GPT formátumban kell formázni. Egyes rendszereken a GPT formátumú lemez nem fog elindulni.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">A teljes lemez (%1) formázása %2 számára</translation>
-    </message>
-    <message>
         <location filename="../minstall.cpp" line="563"/>
         <source>The data in /home cannot be preserved because the required information could not be obtained.</source>
         <translation>A /home könyvtárban lévő adatokat nem lehet megőrizni, mert a szükséges információkat nem sikerült megszerezni.</translation>
@@ -270,12 +260,12 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="659"/>
         <source>On each page, please read the instructions, make your selections, and then click on Next when you are ready to proceed. You will be prompted for confirmation before any destructive actions are performed.</source>
-        <translation>Kérjük, olvassa el az egyes oldalakon az utasításokat, végezze el a kiválasztást, majd kattintson a Tovább gombra, ha készen áll a folytatásra. A rendszer megerősítést kér, mielőtt bármilyen romboló művelet végrehajtásra kerülne.</translation>
+        <translation>Kérjük, olvassa el az egyes oldalakon az utasításokat, adja meg a kért adatokat, majd ha készen áll a folytatásra, kattintson a Tovább gombra. A telepítő megerősítést kér minden olyan művelet előtt, amely adatvesztéshez vezethet.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="661"/>
         <source>Limitations</source>
-        <translation>Korlátok</translation>
+        <translation>Korlátozások</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="662"/>
@@ -290,7 +280,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="667"/>
         <source>If you are running Mac OS or Windows OS (from Vista onwards), you may have to use that system&apos;s software to set up partitions and boot manager before installing.</source>
-        <translation>Ha Mac OS-t vagy Windowst (Vistától kezdve) használ, előfordulhat, hogy a telepítés előtt a rendszer szoftverét kell használnia a partíciók és a rendszerbetöltő beállításához.</translation>
+        <translation>Ha Mac OS-t vagy Windowst (Vistától kezdve) használ, előfordulhat, hogy a telepítés előtt annak a rendszernek a szoftvereit kell használnia a partíciók és a rendszerbetöltő beállításához.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="668"/>
@@ -305,17 +295,17 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="670"/>
         <source>The &lt;b&gt;root&lt;/b&gt; partition will contain the operating system and applications.</source>
-        <translation>A gyökérpartíció tartalmazza az operációs rendszert és az alkalmazásokat.</translation>
+        <translation>A &lt;b&gt;gyökérpartíció&lt;/b&gt; tartalmazza az operációs rendszert és az alkalmazásokat.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="671"/>
         <source>The &lt;b&gt;home&lt;/b&gt; partition will contain the data of all users, such as their settings, files, documents, pictures, music, videos, etc.</source>
-        <translation>A home partíció tartalmazza az összes felhasználó adatait, például a beállításokat, fájlokat, dokumentumokat, képeket, zenéket, videókat stb.</translation>
+        <translation>A &lt;b&gt;home&lt;/b&gt; partíció tartalmazza a felhasználók adatait, például a beállításokat, fájlokat, dokumentumokat, képeket, zenéket, videókat stb.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="672"/>
         <source>Move the slider to the right to increase the space for &lt;b&gt;root&lt;/b&gt;. Move it to the left to increase the space for &lt;b&gt;home&lt;/b&gt;.</source>
-        <translation>A csúszkát jobbra tolva növelheti a &lt;b&gt;gyökérkönyvtár&lt;/b&gt; területét. A csúszkát balra tolva növelheti a helyet az &lt;b&gt;adatai&lt;/b&gt; számára.</translation>
+        <translation>A csúszkát jobbra tolva növelheti a &lt;b&gt;gyökérpartíció&lt;/b&gt; területét. A csúszkát balra tolva növelheti a helyet az &lt;b&gt;adatai&lt;/b&gt; számára.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="673"/>
@@ -325,7 +315,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="674"/>
         <source>Keeping the home directory in a separate partition improves the reliability of operating system upgrades. It also makes backing up and recovery easier. This can also improve overall performance by constraining the system files to a defined portion of the drive.</source>
-        <translation>Ha az adatok könyvtárát külön partícióban tartja, az javítja az operációs rendszer frissítésének megbízhatóságát. A biztonsági mentés és a helyreállítás is könnyebbé válik. Ez az általános teljesítményt is javíthatja, mivel a rendszerfájlokat a meghajtó egy meghatározott részére korlátozza.</translation>
+        <translation>Az adatok könyvtárának külön partícióra helyezése javítja az operációs rendszer frissítésének megbízhatóságát. A biztonsági mentés és a helyreállítás is könnyebbé válik. Ez az általános teljesítményt is javíthatja, mivel a rendszerfájlokat a meghajtó egy meghatározott részére korlátozza.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="676"/>
@@ -344,7 +334,7 @@ Használja örömmel az %1-ot</translation>
         <location filename="../minstall.cpp" line="678"/>
         <location filename="../minstall.cpp" line="759"/>
         <source>A separate unencrypted boot partition is required.</source>
-        <translation>Egy nem titkosított rendszerindítási (boot) partíció szükséges.</translation>
+        <translation>Ehhez egy nem titkosított rendszerindítási (boot) partíció szükséges.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="679"/>
@@ -354,7 +344,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="680"/>
         <source>Using a custom disk layout</source>
-        <translation>Egyéni lemez elrendezés használata</translation>
+        <translation>Egyéni lemezelrendezés használata</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="681"/>
@@ -445,7 +435,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="706"/>
         <source>In addition to the above, you can also type your own mount point. Custom mount points must start with a slash (&quot;/&quot;).</source>
-        <translation>A fentieken kívül megadhat saját csatolási pontot is. Az egyéni csatolási pontoknak egy perjellel (&quot;/&quot;) kell kezdődniük.</translation>
+        <translation>A fentieken kívül megadhat saját csatolási pontokat is. Az egyéni csatolási pontoknak egy perjellel (&quot;/&quot;) kell kezdődniük.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="707"/>
@@ -455,7 +445,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="708"/>
         <source>&lt;i&gt;Encrypt&lt;/i&gt; - Use LUKS encryption for this partition. The password applies to all partitions selected for encryption.</source>
-        <translation>&lt;i&gt;Encrypt&lt;/i&gt; - LUKS titkosítás használata ezen a partíción. A jelszó a titkosításra kiválasztott összes partícióra vonatkozik.</translation>
+        <translation>&lt;i&gt;Titkosítás&lt;/i&gt; - LUKS titkosítás használata ezen a partíción. A jelszó a titkosításra kiválasztott összes partícióra vonatkozik.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="709"/>
@@ -630,7 +620,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="753"/>
         <source>System partition management tool</source>
-        <translation>A rendszer partíció kezelő eszköze</translation>
+        <translation>A rendszer partíciókezelő eszköze</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="754"/>
@@ -640,7 +630,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="760"/>
         <source>To preserve an encrypted partition, right-click on it and select &lt;b&gt;Unlock&lt;/b&gt;. In the dialog that appears, enter a name for the virtual device and the password. When the device is unlocked, the name you chose will appear under &lt;i&gt;Virtual Devices&lt;/i&gt;, with similar options to that of a regular partition.</source>
-        <translation>Egy titkosított partíció megőrzéséhez kattintson rá a jobb gombbal, és válassza a &lt;b&gt;Feloldás&lt;/b&gt; parancsot. A megjelenő párbeszédpanelen adja meg egy nevet a virtuális eszköznek és a jelszót. Amikor az eszköz feloldásra kerül, a választott név megjelenik a &lt;i&gt;Virtuális eszközök&lt;/i&gt; alatt, a hagyományos partícióhoz hasonló lehetőségekkel.</translation>
+        <translation>Egy titkosított partíció megőrzéséhez kattintson rá a jobb gombbal, és válassza a &lt;b&gt;Feloldás&lt;/b&gt; parancsot. A megjelenő párbeszédpanelen adjon meg egy nevet a virtuális eszköznek és a jelszót. Amikor az eszköz feloldásra kerül, a választott név megjelenik a &lt;i&gt;Virtuális eszközök&lt;/i&gt; alatt, a hagyományos partícióhoz hasonló lehetőségekkel.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="762"/>
@@ -655,7 +645,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="764"/>
         <source>The installer allows other partitions to be created or used for other purposes, however be mindful that older systems cannot handle drives with more than 4 partitions.</source>
-        <translation>A telepítő lehetővé teszi további partíciók létrehozását vagy más célokra való használatát, azonban vegye figyelembe, hogy a régebbi rendszerek nem tudják kezelni a 4 partíciónál több partíciót tartalmazó meghajtókat.</translation>
+        <translation>A telepítő lehetővé teszi további partíciók létrehozását vagy más célokra való használatát, azonban vegye figyelembe, hogy a régebbi rendszerek nem tudják kezelni a több mint 4 partíciót tartalmazó meghajtókat.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="765"/>
@@ -740,7 +730,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="798"/>
         <source>By default, this is checked if no swap partitions have been set, and unchecked if swap partitions are set. This option should be left untouched, and is for experts only.</source>
-        <translation>Alapértelmezetten ez be van jelölve, ha cserehely partíció nincs beállítva, és ki van kapcsolva ha van cserehely partíció megadva. Ezt egy szakértői lehetőség, nem javasolt megváltoztatni.</translation>
+        <translation>Alapértelmezetten ez be van kapcsolva, ha nincs cserehely partíció létrehozva, és ki van kapcsolva ha van cserehely partíció. Ezt egy szakértői lehetőség, nem javasolt megváltoztatni.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="799"/>
@@ -755,7 +745,7 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="809"/>
         <source>&lt;p&gt;&lt;b&gt;Computer Identity&lt;/b&gt;&lt;br/&gt;The computer name is a common unique name which will identify your computer if it is on a network. The computer domain is unlikely to be used unless your ISP or local network requires it.&lt;/p&gt;&lt;p&gt;The computer and domain names can contain only alphanumeric characters, dots, hyphens. They cannot contain blank spaces, start or end with hyphens&lt;/p&gt;&lt;p&gt;The SaMBa Server needs to be activated if you want to use it to share some of your directories or printer with a local computer that is running MS-Windows or Mac OSX.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Számítógép azonosító&lt;/b&gt;&lt;br/&gt;A számítógépnév egy általános, egyedi név, amely azonosítja számítógépet, ha egy hálózatra van csatlakoztatva. A domain név nem valószínű hogy használva lesz, hacsak az internet szolgáltató vagy helyi hálózat nem kívánja meg.&lt;/p&gt;&lt;p&gt;A számítógép és a domain név csak alfanumerikus karaktereket tartalmazhat, valamint pontot és kötőjelet. Nem tartalmazhatnak szóközt, vagy az elején illetve a végén kötőjelet.&lt;/p&gt;&lt;p&gt;A SaMBa Szervert aktiválni kell, ha mappát vagy nyomtatót szeretne megosztani egy olyan helyi hálózaton, ahol a gépeken MS-Windows vagy Mac OSX fut.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;&lt;b&gt;Számítógép azonosítói&lt;/b&gt;&lt;br/&gt;A számítógépnév egy általános, egyedi név, amely azonosítja számítógépet, ha egy hálózatra van csatlakoztatva. A domain név nem valószínű hogy használva lesz, hacsak az internet szolgáltató vagy helyi hálózat nem kívánja meg.&lt;/p&gt;&lt;p&gt;A számítógép és a domain név csak alfanumerikus karaktereket tartalmazhat, valamint pontot és kötőjelet. Nem tartalmazhatnak szóközt, vagy az elején illetve a végén kötőjelet.&lt;/p&gt;&lt;p&gt;A SaMBa szervert aktiválni kell, ha mappát vagy nyomtatót szeretne megosztani egy olyan helyi hálózaton, ahol a gépeken MS-Windows vagy Mac OSX fut.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="819"/>
@@ -800,31 +790,27 @@ Használja örömmel az %1-ot</translation>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Adja meg egy új (alapértelmezett) felhasználói fiók nevét, amelyet rendszeresen használni fog. Szükség esetén később további felhasználói fiókokat is létrehozhat, a %1 Felhasználókezelő segítségével.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Root (rendszergazda) fiók</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>A root felhasználó hasonló más operációs rendszerek Rendszergazda fiókjához. A root felhasználót nem szabad napi felhasználói fiókként használni.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>A root fiók le van tiltva az MX Linux rendszerben, mivel a rendszergazdai feladatokat az alapértelmezett felhasználó megemelt szintű jóváhagyásokkal végzi.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">A root felhasználó hasonló a rendszergazda felhasználóhoz néhány más operációs rendszerben. A root felhasználót nem szabad napi felhasználói fiókként használni. Adja meg egy új (alapértelmezett) felhasználói fiók nevét, amelyet napi rendszerességgel fog használni. Szükség esetén később az %1 Felhasználókezelő segítségével további felhasználói fiókokat is létrehozhat.</translation>
+        <translation>A root fiók engedélyezése erősen ajánlott az antiX Linux esetében.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1059,7 +1045,7 @@ Biztos megszakítja a folyamatot?</translation>
     <message>
         <location filename="../meinstall.ui" line="200"/>
         <source>Terms of Use</source>
-        <translation>Használat feltételei</translation>
+        <translation>Felhasználási feltételek</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="232"/>
@@ -1316,7 +1302,7 @@ Biztos megszakítja a folyamatot?</translation>
     <message>
         <location filename="../meinstall.ui" line="1218"/>
         <source>Computer name:</source>
-        <translation>Számítógép név:</translation>
+        <translation>Számítógépnév:</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1267"/>
@@ -1474,7 +1460,7 @@ Biztos megszakítja a folyamatot?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>A számítógép neve érvénytelen karaktereket tartalmaz.
 Választania kell egy másik
@@ -1488,7 +1474,7 @@ nevet mielőtt folytatná.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>A domain név érvénytelen karaktereket tartalmaz.
 Választania kell egy másik
@@ -1647,118 +1633,6 @@ Válasszon egy másik nevet.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Nem sikerült lezárni: %1</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Érvénytelen alkötet címke</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Duplikált alkötet címke</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Érvénytelen használat: %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 már ki van választva ehhez: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Egy legalább 1% méretű root partíció szükséges.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Nem lehetséges a root (/) partíción belüli /home megtartása, ha egy külön /home partíció is csatolva van.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">%1 partíciós tábla létrehozása: %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">%1 újrahasznosítása (nem formázza)</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">%1 formázása</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">%1 formázása %2 használatára</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">%1 újrahasznosítása (nem formázza) %2 használatára</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Adatok törlése %1 partíción, kivéve a /home könyvtárat, %2 használatára</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">%1 létrehozása formázás nélkül.</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">%1 létrehozása, formázás %2 használatára</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">%1 alkötet újrahasznosítása mint %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">%1 alkötet törlése</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">%1 alkötet felülírása</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">%1 alkötet felülírása, %2 használatára</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">%1 alkötet létrehozása</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">%1 alkötet létrehozása, %2 használatára</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Egy külön boot partíció megadása szükséges, ha titkosítja a root partíciót.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Biztos, hogy folytatja?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) %3-t igényel</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">A telepítés nem sikerült, mert a következő kötetek túl kicsik:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">A rendszer EFI-t használ, de a /boot/efi-hez nem került külön hozzárendelésre egy érvényes EFI rendszerpartíció.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">A /boot/efi-hez rendelt kötet nem egy érvényes EFI rendszerpartíció.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">A következő meghajtók GPT-vel való használatra vannak vagy lesznek beállítva, de nincs BIOS-GRUB partíció:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">A rendszer esetleg nem fog elindulni GPT meghajtóról, BIOS-GRUB partíció hiányában.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2030,7 +1904,7 @@ Nem javasolt, hacsak nem garantált, hogy a telepítési média hibamentes.</tra
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>A telepítő nem indul el, mert úgy tűnik, hogy már fut a háttérben.

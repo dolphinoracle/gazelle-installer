@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Viel Spaß mit %1</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Viel Spaß mit %1</translation>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>Ungültige Einstellungen in der Konfigurationsdatei (%1) gefunden. Bitte überprüfen Sie die markierten Felder, wenn Sie sie finden.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">WARNUNG: Das ausgewählte Laufwerk hat eine Kapazität von mindestens 2 TB und muss mit GPT formatiert sein. Auf einigen Systemen lässt sich eine GPT-formatierte Festplatte nicht booten.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Formatieren und Verwenden der gesamten Festplatte (%1) für %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -801,31 +791,27 @@ Wählen Sie hier die Systemdienste, die Sie in Ihrer Systemkonfiguration haben w
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">Der Benutzer root ist mit dem Administrator anderer Betriebssysteme vergleichbar. Dieser spezielle Nutzerzugang sollte nie für die normale, alltägliche Nutzung des Computers verwendet werden. Bitte geben Sie einen Namen für ein neues (Standard-)Benutzerkonto ein, das Sie im normalen Betrieb verwenden werden. Falls erforderlich, können später weitere Benutzerkonten in der %1 Benutzerverwaltung hinzugefügt werden.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1475,7 +1461,7 @@ Möchten Sie wirklich den Vorgang beenden?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Der Computername enthält leider ungültige Zeichen. 
 Bitte wählen Sie einen anderen Namen, 
@@ -1489,7 +1475,7 @@ bevor Sie fortfahren.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Der Domänenname des Computers enthält leider ungültige Zeichen.
 Bitte wählen Sie einen anderen Namen, bevor Sie fortfahren.</translation>
@@ -1647,118 +1633,6 @@ Bitte einen anderen Namen wählen.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>%1 konnte nicht geschlossen werden</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Ungültige Bezeichnung der Untersektion</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Bezeichnung der Untersektion ist doppelt vorhanden</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Falsche Verwendung von %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 wurde bereits für %2 ausgewählt.</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Eine root-Partition von mindestens %1 ist erforderlich.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Das /home-Verzeichnis kann nicht als Unterverzeichnis des Stammverzeichnisses (/) erhalten bleiben, wenn zugleich eine separate Partition als /home-Verzeichnis eingehängt wird.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Partitionstabelle %1 auf %2 vorbereiten</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">%1 wiederverwenden (keine Neuformatierung)</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Format %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Formatiere %1 zur Verwendung für %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Verwende %1 als %2 wieder (ohne Neuformatierung).</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Lösche zur Nutzung als %2 alle auf %1 vorhandenen Daten, außer dem Verzeichnis /home</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Erstelle %1 ohne Formatierung</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Erstelle %1, formatiere zur Verwendung für %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Subvolume %1 als %2 wiederverwenden</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Subvolume %1 löschen</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Subvolume %1 überschreiben</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Subvolume %1 zur Verwendung für %2 überschreiben</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Subvolume %1 erstellen</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Subvolume %1 zur Verwendung für %2 erstellen</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Für die Verschlüsselung der root-Partition ist eine eigene boot-Partition erforderlich.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Sind Sie sicher, daß Sie fortfahren möchten?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) benötigt %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Die Installation könnte fehlschlagen, weil die folgenden Datenträger zu klein sind:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Dieses System verwendet EFI, aber /boot/efi wurde keine gültige EFI-Systempartition separat zugewiesen.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Der Datenträger, der /boot/efi zugewiesen ist, ist keine gültige EFI-Systempartition.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Die folgenden Laufwerke sind oder werden mit »GPT« formatiert, haben aber keine »BIOS-GRUB« Partition:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Dieses System kann möglicherweise nicht von mit »GPT« formatierten Laufwerken gebootet werden, wenn keine »BIOS-GRUB« Partition vorhanden ist.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2030,7 +1904,7 @@ Das wird nicht empfohlen, es sei denn, das Installationsmedium ist garantiert fe
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Das Installations-Programm kann nicht erneut gestartet werden, weil es scheinbar bereits im Hintergrund läuft.

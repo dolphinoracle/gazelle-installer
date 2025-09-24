@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ca">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ca">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Gaudiu usant %1</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>No puc trobar la unitat seleccionada.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -240,14 +238,6 @@ Gaudiu usant %1</translation>
         <translation>S&apos;han trobat paràmetres incorrectes al fitxer de configuració (%1). Si us plau, reviseu els camps marcats així que els trobeu.</translation>
     </message>
     <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">ATENCIÓ: La unitat seleccionada té una capacitat de 2TB o més, i cal formatar-la usant GPT. En alguns sistemes, un disc formatat en GPT pot no arrencar.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Formata i usa tot el disc sencer (%1) per %2</translation>
-    </message>
-    <message>
         <location filename="../minstall.cpp" line="563"/>
         <source>The data in /home cannot be preserved because the required information could not be obtained.</source>
         <translation>No es poden preservar les dades a /home perquè no s&apos;ha pogut obtenir la informació necessària.</translation>
@@ -270,7 +260,7 @@ Gaudiu usant %1</translation>
     <message>
         <location filename="../minstall.cpp" line="659"/>
         <source>On each page, please read the instructions, make your selections, and then click on Next when you are ready to proceed. You will be prompted for confirmation before any destructive actions are performed.</source>
-        <translation>A cada pàgina, si us plau llegiu les instruccions, feu les vostres seleccions, i cliqueu Següent quan esteu a punt de continuar. Se us demanarà confirmació abans de fer cap acció destructiva.</translation>
+        <translation>A cada pàgina, si us plau llegiu les instruccions, feu les vostres seleccions, i cliqueu a Següent quan estigueu a punt per continuar. Se us demanarà confirmació abans de fer cap acció destructiva.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="661"/>
@@ -280,7 +270,7 @@ Gaudiu usant %1</translation>
     <message>
         <location filename="../minstall.cpp" line="662"/>
         <source>Remember, this software is provided AS-IS with no warranty what-so-ever. It is solely your responsibility to backup your data before proceeding.</source>
-        <translation>Recordeu, aquest programari es facilita TAL-QUAL, sense cap garantia específica. És la vostra responsabilitat fer una còpia de seguretat abans de continuar.</translation>
+        <translation>Recordeu, aquest programari es facilita AIXÍ, sense cap garantia específica. És responsabilitat vostra fer una còpia de seguretat abans de continuar.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="666"/>
@@ -800,31 +790,27 @@ Gaudiu usant %1</translation>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si us plau, entreu el nom per a un nou compte d&apos;usuari (per omissió) que usareu diàriament. Si cal, podeu afegir després altres comptes d&apos;usuari amb el Gestor d&apos;Usuaris de %1. </translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Compte Root (administrador)</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;usuari Root és semblant a l&apos;administrador en altres Sistemes Operatius. No hauríeu d&apos;usar mai l&apos;usuari root com el vostre compte habitual.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;usuari Root està desactivat en MX Linux, atès que les tasques administratives tenen lloc amb una elevació de nivell de l&apos;usuari per omissió.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">L&apos;usuari principal és semblant a l&apos;Administrador en altres Sistemes Operatius. No hauríeu d&apos;usar l&apos;usuari principal per a les tasques habituals. Si us plau, entreu el nom per a un nou compte d&apos;usuari (per omissió) i per a les tasques diàries. Si cal, podeu afegir altres comptes més endavant amb el Gestor d&apos;Usuaris %1.  </translation>
+        <translation>Es recomana activar el compte de root a antiX Linux.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1474,7 +1460,7 @@ De debò voleu aturar-la ara?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Ho sento, el nom de l&apos;ordinador té caràcters no vàlids.
 Cal que trieu un nom diferent
@@ -1488,7 +1474,7 @@ abans de continuar.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Ho sento, el domini de l&apos;ordinador té caràcters no vàlids.
 Cal que trieu un nom diferent
@@ -1647,118 +1633,6 @@ Si us plau, trieu un nom diferent. </translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Ha fallat en tancar %1 </translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Etiqueta de subvolum no vàlida </translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Etiqueta de subvolum duplicada </translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Ús no vàlid per %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 ja s&apos;ha seleccionay per: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Cal una partició arrel de, com a mínim, %1.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">No puc conservar /home dins de root (/) si ja hi ha una altra partició /home muntada.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Prepara la taula de particions %1 a %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Reutilitza (sense reformatar) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Formata %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Formata %1 per a usar-la com %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Reutilitzar (sense reformatar) %1 com a %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Esborra les dades a %1 amb l&apos;excepció de /home, per usar-la com %2</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Crea %1 sense formatar</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Crea %1, formata per a usar-la com a %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Reutilitza el subvolum %1 com a %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Esborra el subvolum %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Sobreescriu el subvolum %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Sobreescriu el subvolum %1 per usar-lo per %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Crea el subvolum %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Crea el subvolum %1 per usar per %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Cal triar una partició d&apos;arrencada separada quan s&apos;encripta l&apos;arrel.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Esteu segurs de voler continuar?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) necessita %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">La instal·lació pot fallar perquè aquests volums són massa petits:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Aquest sistema usa EFI, però s&apos;ha assignat separadament una partició de sistema EFI no vàlida a /boot/efi.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">El volum assignat a /boot/efi no és una partició de sistema EFI vàlida.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Aquestes unitats són o seran configurades en GPT, però no hi ha una partició BIOS-GRUB: </translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">El sistema no podrà arrencar amb unitats GPT sense una partició BIOS-GRUB.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2030,7 +1904,7 @@ No es recomana, llevat que el suport d&apos;instal·lació garanteixi estar lliu
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>L&apos;instal·lador no arrencarà perquè sembla que ja s&apos;està executant en segon pla.

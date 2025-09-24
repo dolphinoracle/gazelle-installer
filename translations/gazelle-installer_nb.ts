@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="nb">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="nb">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Lykke til med %1.</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fant ikke valgt disk.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Lykke til med %1.</translation>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>Fant ugyldige innstillinger i oppsettsfila (%1). Kontroller de markerte feltene.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">ADVARSEL: Valgt disk er minst 2 TB, og må formateres med GPT. Noen datamaskiner kan ikke starte opp med GPT-formaterte disker.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Formater og bruk hele disken (%1) til %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Lykke til med %1.</translation>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv inn navnet på den nye brukerkontoen som du vil bruke til vanlig. Du kan legge til andre brukerkontoer senere med %1 sin brukerbehandling.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Root-konto (administrator)</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Root-brukeren tilsvarer administrator i andre operativsystemer. Du bør ikke bruke root som daglig brukerkonto.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>Root-kontoen er deaktivert i MX Linux fordi administrative oppgaver utføres med hevet rettighetsnivå for den vanlige brukeren.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">Root-brukeren svarer til administrator i andre operativsystemer. Denne brukerkontoen bør ikke anvendes til ordinær bruk. Skriv inn et nytt brukernavn for den kontoen som skal brukes til vanlig innlogging. Senere kan flere brukere legges til med %1 sin brukerbehandling.</translation>
+        <translation>Det anbefales at root-kontoen aktiveres for antiX Linux.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1474,7 +1460,7 @@ Vil du virkelig avbryte nå?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Datamaskinens navn kan ikke inneholde ugyldige tegn.
 Velg et annet navn.</translation>
@@ -1487,7 +1473,7 @@ Velg et annet navn.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Domenenavnet kan ikke inneholde ugyldige tegn.
 Velg et annet navn.</translation>
@@ -1645,118 +1631,6 @@ Velg et annet brukernavn.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Klarte ikke lukke %1</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Ugyldig etikett for underområde for data</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Duplisert etikett for underområde for data</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Ugyldig bruk av %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 er allerede valgt for: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Det kreves en rotpartisjon som er minst %1.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Kan ikke bevare /home inni root (/) hvis separat /home-partisjon også monteres.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Forbereder %1-partisjonstabell på %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Gjenbruk (uten reformatering) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Formater %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Formater %1 til bruk for %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Gjenbruk (uten reformatering) %1 som %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Slett data på %1, bortsett fra /home, til bruk for %2</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Opprett %1 uten formatering</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Opprett %1, formater til bruk for %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Gjenbruk underområde %1 som %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Slett underområde %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Overskriv underområde %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Overskriv underområde %1 til bruk for %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Opprett underområde %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Opprett %1 til bruk for %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Velg en separat oppstartspartisjon når rota krypteres.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Vil du virkelig fortsette?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) krever %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Installasjonen kan mislykkes fordi følgende dataområder er for små:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Dette systemet bruker EFI, men ingen gyldig EFI-systempartisjon var tilordnet /boot/efi.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Dataområdet tilordnet /boot/efi er ikke en gyldig EFI systempartisjon.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Følgende disker er formatert med, eller skal formateres med GPT-partisjoner, men mangler BIOS-GRUB-partisjon:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Dette systemet kan ikke starte fra GPT-disker uten BIOS-GRUB-partisjon.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2028,7 +1902,7 @@ Dette anbefales kun hvis du vet det er feilfritt.</translation>
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Installasjonsprogrammet kan ikke startes fordi det allerede kjører i bakgrunnen.

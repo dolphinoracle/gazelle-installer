@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="es_ES">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Disfruta usando %1</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se encontró la unidad seleccionada.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Disfruta usando %1</translation>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>Se encontraron valores no válidos en el archivo de configuración (%1). Revise los campos marcados a medida que los encuentre.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">ADVERTENCIA: La unidad seleccionada tiene una capacidad de al menos 2TB y debe de ser formateada usando GPT. En algunos sistemas. un disco formateado en GPT no arrancara.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Formatear y utilizar todo el disco (%1) para %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Disfruta usando %1</translation>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Introduzca el nombre de una nueva cuenta de usuario ( predeterminada) que utilizará a diario. Si es necesario, puede añadir otras cuentas de usuario más adelante con %1 User Manager.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuenta root (administrador)</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>El usuario root es similar al usuario Administrador en algunos otros sistemas operativos. No debe utilizar el usuario root como cuenta de usuario diaria.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>La cuenta root está deshabilitada en MX Linux, ya que las tareas administrativas se realizan con un prompt de elevación para el usuario por defecto.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">El usuario root es similar al usuario administrador en algunos otros sistemas operativos. No debe usar el usuario root como su cuenta de usuario diaria. Introduzca el nombre de una nueva cuenta de usuario (predeterminada) que usará a diario. Si es necesario, puede agregar otras cuentas de usuario más tarde con %1 Gestor de Usuario.</translation>
+        <translation>Se recomienda encarecidamente habilitar la cuenta root para antiX Linux.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1474,7 +1460,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Lo sentimos, el nombre que eligió para su equipo contiene caracteres inválidos.
 Tendrá que seleccionar un
@@ -1488,7 +1474,7 @@ nombre diferente antes de continuar.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Lo sentimos, el dominio de equipo elegido contiene caracteres inválidos.
 Tendrá que seleccionar un nombre
@@ -1647,118 +1633,6 @@ Por favor elija un nombre diferente.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Fallo al cerrar %1</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Etiqueta de subvolumen inválida</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Etiqueta de subvolumen duplicada</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Uso no válido para %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 ya está seleccionado para: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Se necesita una partición raíz de al menos %1.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">No se puede conservar /home dentro de la raíz (/) si también está montada una partición /home separada.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Preparar la tabla de partición %1 en %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Reutilizar (sin reformatear) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Formatear %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Formatear %1 para usar en %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Reutilizar (sin reformatear) %1 como %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Eliminar los datos en %1 excepto /home, para usarlos en %2</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Crear %1 sin formatear</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Crear %1, formato para usar en %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Reutilizar subvolumen %1 como %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Borrar subvolumen %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Sobrescribir subvolumen %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Sobrescribir subvolumen %1 para usarlo en %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Crear subvolumen %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Crear subvolumen %1 para usarlo en %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Debe elegir una partición de arranque separada al encriptar la raíz.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">¿Está seguro que quiere continuar?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) requiere %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">La instalación puede fallar porque los siguientes volúmenes son demasiado pequeños:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Este sistema utiliza EFI, pero no se ha asignado ninguna partición de sistema EFI válida para /boot/efi por separado.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">El volumen asignado a /boot/efi no es una partición de sistema EFI válida.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Las siguientes unidades están, o estarán, configuradas con GPT, pero no tienen una partición BIOS-GRUB:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Este sistema no puede arrancar desde unidades GPT sin una partición BIOS-GRUB.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2029,7 +1903,7 @@ Not recommended unless the installation media is guaranteed to be free from erro
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>El instalador no se inicia porque parece que ya se está ejecutando en segundo plano.

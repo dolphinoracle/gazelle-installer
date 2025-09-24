@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="tr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="tr">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Enjoy using %1</source>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation> (%1) Yapılandırma dosyasında geçersiz ayarlar bulundu. Lütfen işaretli alanları karşılaştıkça inceleyin.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">UYARI: Seçilen sürücü en az 2TB kapasiteye sahip ve GPT kullanılarak formatlanması gerekiyor. Bazı sistemlerde GPT biçimli bir disk önyükleme yapamaz.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Tüm diski (%1) %2 için biçimlendirin ve kullanın.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">root kullanıcı, diğer bazı işletim sistemlerinde Yönetici kullanıcıya benzer. root kullanıcıyı günlük kullanıcı hesabınız olarak kullanmamalısınız. Lütfen günlük olarak kullanacağınız yeni (varsayılan) bir kullanıcı hesabının adını girin. Gerekirse, daha sonra %1 Kullanıcı Yöneticisi ile başka kullanıcı hesapları ekleyebilirsiniz.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1176,7 +1162,7 @@ Gerçekten şimdi durdurmak istiyor musunuz?</translation>
     <message>
         <location filename="../meinstall.ui" line="680"/>
         <source>Show advanced fields.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="713"/>
@@ -1474,7 +1460,7 @@ Gerçekten şimdi durdurmak istiyor musunuz?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Üzgünüm, bilgisayar adınız geçersiz karakterler içeriyor.
 Farklı bir seçim yapmanız gerek
@@ -1488,7 +1474,7 @@ Farklı bir seçim yapmanız gerek
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Üzgünüm, bilgisayar alan adınız geçersiz karakterler içeriyor.
 Devam etmeden önce
@@ -1647,118 +1633,6 @@ Farklı bir ad seçin.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>%1 kapatılamadı</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Geçersiz altbirim etiketi</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Altbirim etiketini çiftle</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">%1 için geçersiz kullanım: %2 </translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">Şunun için %1 zaten seçildi: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">En az %1’lik bir kök bölüm gereklidir.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Ayrı bir /home bölümü de bağlıysa (/) kök içindeki /home korunamaz.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">%2 üzerinde %1 bölüm tablosu hazırla</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Yeniden kullan (biçimlendirmeden) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">%1’i Biçimlendir</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">%1’i %2 için kullanmak üzere biçimlendir</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Yeniden kullan (yeniden biçimlendirme yok) %1, %2 olarak </translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">%2 için kullanmak üzere %1 üzerinde olan /home dışındaki verileri silin</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Biçimlendirmeden %1 oluştur</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">%2 biçiminde %1 oluştur</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">%1 alt birimini %2 olarak yeniden kullan</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">%1 alt birimini sil</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">%1 alt biriminin üzerine yaz</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">%2 için kullanmak üzere %1 alt biriminin üzerine yaz</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">%1 alt birimi oluştur</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">%2 için kullanmak üzere %1 alt birimi oluşturun</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Kök bölümünü şifrelerken ayrı bir önyükleme bölümü seçmelisiniz.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Devam etmek istediğinize emin misiniz?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) %3 gerektirir</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Aşağıdaki birimler çok küçük olduğu için yükleme başarısız olabilir:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Bu sistem EFI kullanır, ancak /boot/efi’ye ayrıca geçerli bir EFI sistem bölümü atanmamıştır.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">/boot/efi’ye atanan birim, geçerli bir EFI sistem bölümü değil.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Aşağıdaki sürücüler GPT ile kurulu veya kurulacak, ancak BIOS-GRUB bölümü yok:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Bu sistem, BIOS-GRUB bölümü olmayan GPT sürücülerinden önyükleme yapmayabilir.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2030,7 +1904,7 @@ Kurulum ortamının hatasız olduğu garanti edilmedikçe önerilmez.</translati
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Yükleyici, zaten arka planda çalışıyor göründüğü için başlamıyor.

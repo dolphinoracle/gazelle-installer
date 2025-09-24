@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ja">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Enjoy using %1</source>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>設定ファイル (%1) に無効な設定値が検出されました。検出された箇所を見直してください。</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">警告: 選択したドライブは少なくとも 2TB の容量があるので GPT を使ってフォーマットする必要があります。いくつかのシステムでは GPT でフォーマットされたディスクは起動しません。</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">ディスク (%1) 全体をフォーマットして %2 に使用する</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">root ユーザは、他の一部のオペレーティングシステムにおける管理者アカウントに似ています。通常使用するユーザアカウントとして root ユーザを使用しないでください。日常的に使用する新しい (既定の) ユーザアカウントの名前を入力してください。もし必要な場合は、あとから %1 ユーザマネージャでアカウントの追加を行うことができます。</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1474,7 +1460,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>申しわけありませんがコンピュータ名に無効な文字列が含まれています。
 先へ進むには別の名前を選んでください。</translation>
@@ -1487,7 +1473,7 @@ name before proceeding.</source>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>申しわけありませんがコンピュータのドメインに無効な文字列が含まれています。
 先へ進むには別の名前を選んでください。</translation>
@@ -1645,118 +1631,6 @@ Please select a different name.</source>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>%1 の近くで失敗しました</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">無効なサブボリュームラベル</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">重複したサブボリュームラベル</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">無効な %1: %2 の利用</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 はすでに %2 で選択されています。</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">少なくとも %1の root パーティションが必要です。</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">別の独立した /home パーティションがマウントされている場合、root (/) 内に /home を保持することはできません。</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">%2 で %1 パーティションテーブルを準備します</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">%1 を再使用 (フォーマットしません)</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">%1 のフォーマット</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">%2 に使用する %1 を初期化します</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">%1 を %2 として再利用（再フォーマット不要）</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">/home 以外の %1 のデータを削除して %2 に使用します</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">初期化しないで %1 を作成します</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">%1 を作成し、%2 に使用するため初期化します</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">サブボリューム %1 を %2 として再使用する</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">サブボリューム %1 を削除</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">サブボリューム %1 を上書き</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">サブボリューム %1 を上書きし、 %2 に利用する</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">サブボリューム %1 を作成する</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">サブボリューム %1 を作成し、%2 に利用する</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">暗号化するには別の独立した boot パーティションを選択する必要があります。</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">本当に作業を続けてもよろしいですか？</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) には %3 が必要です</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">以下のボリュームが小さすぎるので、インストールに失敗する可能性があります。</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">このシステムでは EFI を使用していますが、/boot/efi に有効な EFI システムパーティションが割り当てられていません。</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">boot/efi に割り当てられたボリュームは、有効な EFI システムパーティションではありません。</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">以下のドライブは現在 GPT で設定されているか、または設定される予定ですが、BIOS-GRUB パーティションが存在しません。</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">このシステムでは、BIOS-GRUB パーティションが存在しないので、GPT ドライブから起動しないかもしれません。</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2029,7 +1903,7 @@ Not recommended unless the installation media is guaranteed to be free from erro
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>インストーラは、既にバックグラウンドで実行されているようなので起動しません。

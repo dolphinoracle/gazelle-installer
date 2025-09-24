@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sl">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Uživajte v sistemu %1!</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Izbranega pogona ni mogoče najti.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Uživajte v sistemu %1!</translation>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>V konfiguracijski datoteki (%1) so bile najdene napačne nastavitve. Prosimo, preverite označena polja.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">OPOZORILO: Izbrani pogon ima zmogljivost vsaj 2TB in mora biti formatiran z uporabo GPT. Na nekaterih sistemih diski, ki so formatirani z GPT, ne morejo izvesti zagona.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Formatiraj in uporabi celoten disk (%1) za %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Uživajte v sistemu %1!</translation>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vnesite ime novega (privzetega) računa, ki ga boste redno uporabljali. Kasneje boste lahko dodali tudi druge račune z uporabo %1 upravljalnika uporabnikov.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Korenski (administrativni) račun</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Korenski uporabnik ima podobno skrbniško funkcijo kot administrator nekaterih drugih operacijskih sistemov. Korenskega uporabnika ni priporočljivo uporabljati kot račun za vsakodnevna opravila.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>V MX Linuxu je korenski uporabnik onemogočen, ker se skrbniška opravila izvajajo preko začasnega povečanja pravic privzetega uporabnika.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">Korenski ali root uporabnik ima podobno funkcijo kot administrator v nekaterih drugih operacijskih sistemih. Tega uporabnika naj ne bi uporabljali kot svoj običajen račun. Vnesite ime za nov (privzeti) uporabniški račun, ki ga boste uporabljali pri vsakodnevnih opravilih. Če je potrebno, lahko kasneje dodate še druge uporabniške račune z %1  Upravljalnik uporabnikov.</translation>
+        <translation>Vklop korenskega računa je zelo priporočljiv za antiX Linux.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1401,7 +1387,7 @@ Ali bi jo res radi zaustavili?</translation>
     <message>
         <location filename="../meinstall.ui" line="1626"/>
         <source>Root (administrator) Account</source>
-        <translation>Korenski (administratorski) račun</translation>
+        <translation>Korenski (administrativni) račun</translation>
     </message>
     <message>
         <location filename="../meinstall.ui" line="1644"/>
@@ -1474,7 +1460,7 @@ Ali bi jo res radi zaustavili?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Oprostite, ime vašega računalnika vsebuje nedovoljene znake.
 Morali boste izbrati
@@ -1488,7 +1474,7 @@ drugo ime, preden lahko nadaljujete.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Oprostite, ime vašeračunalniške domene vsebuje nedovoljene znake.
 Morali boste izbrati
@@ -1647,118 +1633,6 @@ Izberite drugo ime.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Napaka pri zapiranju %1</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Napačna oznaka podpogona</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Podvoji oznako podpogona</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Neveljavna raba za %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 je že izbran za: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Potreben je korenski razdelek z najmanj %1.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Ne morem ohraniti doma /home v korenu /root, če je priklopljen tudi ločen razdelek /home.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Pripravi %1 tabelo razdelkov na %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Ponovno uporabi (brez formatiranja) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Formatiraj %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Formatiraj %1 za uporabo kot %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Ponovno uporabi (brez formatiranja) %1 kot %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Izbriši podatke na %1, razen za /home za rabo z %2</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Ustvari %1 brez formatiranja</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Ustvari %1, formatiraj za rabo kot %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Ponovno uporabi podrazdelek %1 kot %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Izbriši podrazdelek %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Prepiši podrazdelek %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Prepiši podrazdelek %1 za uporabo z %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Ustvari podrazdelek %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Ustvari podrazdelek %1 za uporabo z %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Za šifriranje korena oz. root, je potrebno ustvariti ločen zagonski razdelek.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Želite nadaljevati?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) potrebuje %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Namestitev morda ne bo uspela, ker so ti pogoni premajhni:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Ta sistem uporablja EFI, vendar ni bila določen ločen EFI sistemski razdelek za /boot/efi.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Pogon določen za /boot/efi ni ustrezen EFI sistemski razdelek.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Naslednji pogoni so ali bodo nameščeni z GPT, a nimajo BIOS-GRUB razdelka:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Sistem se morda ne bo mogel zagnati z GPT pogonov, ki nimajo BIOS-GRUB razdelka.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2030,7 +1904,7 @@ Ni priporočljivo, razen v primerih, ko je nosilec zagotovo brez napak.</transla
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Namestitveni program se ne more zagnati, ker je zaznal, da se že izvaja v ozadju.

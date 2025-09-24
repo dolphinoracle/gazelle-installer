@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ru_RU">
 <context>
     <name>AutoPart</name>
     <message>
@@ -147,10 +145,10 @@ Minimum: %2</source>
 We recommend you quit now and restart in Legacy Boot
 
 Do you want to continue the installation?</source>
-        <translation>Ваша 32-битная ОС работает в 64-битном режиме &quot;UEFI&quot;, система не загрузится, если Вы не выберете &quot;Legacy Boot&quot; или аналогичный режим при перезагрузке.
-Рекомендуем Вам выйти сейчас и перезагрузить систему в режиме &quot;Legacy Boot&quot;.
+        <translation>Ваша 32-битная ОС работает в 64-битном режиме «UEFI», система не загрузится, если Вы не выберете «Legacy Boot» или аналогичный режим при перезагрузке.
+Рекомендуем Вам выйти сейчас и перезагрузить систему в режиме «Legacy Boot».
 
-Вы хотите продолжить установку?</translation>
+Хотите продолжить установку?</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="193"/>
@@ -192,7 +190,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно найти выбранный диск.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Enjoy using %1</source>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>Найдены недопустимые параметры в файле конфигурации (%1). Пожалуйста, проверяйте отмеченные поля по мере их обнаружения.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">ВНИМАНИЕ: Выбранный диск больше 2ТБ и должен быть отформатирован в GPT. Некоторые системы не могут загружаться с дисков GPT.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Форматировать и использовать весь диск (%1) для %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Введите имя для новой (по умолчанию) учетной записи пользователя, которую вы будете использовать ежедневно. При необходимости вы можете добавить другие учетные записи пользователей позже с помощью %1 Менеджер пользователей.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Учётная запись администратора (root)</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пользователь root похож на пользователя Administrator в некоторых других операционных системах. Вам не следует использовать пользователя root в качестве ежедневной учетной записи пользователя.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>Учетная запись root отключена в MX Linux, поскольку административные задачи выполняются с запросом на повышение прав для пользователя по умолчанию.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">Пользователь root аналогичен пользователю Administrator в некоторых других операционных системах. Вы не должны использовать пользователя root в качестве своей повседневной учетной записи пользователя. Пожалуйста, введите имя для новой учетной записи пользователя (по умолчанию), которую Вы будете использовать ежедневно. При необходимости Вы можете добавить другие учетные записи пользователей позже с помощью % 1 Менеджер пользователей.</translation>
+        <translation>Для antiX Linux настоятельно рекомендуется включить учетную запись root.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1474,7 +1460,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Извините, имя компьютера содержит недопустимые символы. 
 Для продолжения выберите другое имя.</translation>
@@ -1487,7 +1473,7 @@ name before proceeding.</source>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Извините, имя домена содержит
 недопустимые символы. Выберите
@@ -1646,118 +1632,6 @@ Please select a different name.</source>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Не удалось закрыть %1</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Неверная метка подтома</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Повторяющаяся метка подтома</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Недопустимое использование для %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 уже выбран для: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Корневой раздел требует не менее %1.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Невозможно сохранить /home в корне (/), если будет смонтирован отдельный раздел /home.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Подготовка %1 таблицы разделов на %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Использовать (без форматирования) %1 как %2</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Форматировать %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Отформатировать %1 для подключения к %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Использовать (без форматирования) %1 как %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Удаление данных на %1 кроме /home, подключение к %2</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Создать %1 без форматирования</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Создать %1, отформатировать для подключения к %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Повторно использовать подтом %1 как %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Удалить подтом %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Перезаписать подтом %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Перезапишите подтом %1 для использования в %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Создать подтом %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Создайте подтом %1 для использования %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Вы должны указать отдельный раздел boot, если используется шифрованный корневой раздел.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Вы уверены, что хотите продолжить?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) требует %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Установка может не удалиться, потому что следующие тома слишком малы:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Эта система использует EFI, но отдельно не был назначен действительный раздел системы EFI для /boot/efi.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Раздел, назначенный для /boot/efi, не является допустимым разделом EFI системы.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Следующие диски настроены или будут настроены с помощью GPT, но не имеют раздела BIOS-GRUB:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Эта система может не загрузиться с диска GPT, если отсутствует раздел BIOS-GRUB.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2029,7 +1903,7 @@ Not recommended unless the installation media is guaranteed to be free from erro
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Программа установки не может быть запущена, она уже выполняется в фоновом режиме.

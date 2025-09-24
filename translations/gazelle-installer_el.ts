@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="el">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Enjoy using %1</source>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>Μη έγκυρες ρυθμίσεις βρέθηκαν στο αρχείο διαμόρφωσης (%1). Ελέγξτε τα πεδία που έχουν επισημανθεί καθώς τα συναντάτε.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Η επιλεγμένη μονάδα έχει χωρητικότητα τουλάχιστον 2TB και πρέπει να μορφοποιηθεί χρησιμοποιώντας το GPT. Σε ορισμένα συστήματα, δεν θα εκκινηθεί ένας δίσκος με μορφή GPT.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Μορφοποιήστε και χρησιμοποιήστε ολόκληρο τον δίσκο (%1) για το %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Enjoy using %1</source>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">Ο χρήστης root είναι παρόμοιος με τον χρήστη Administrator σε ορισμένα άλλα λειτουργικά συστήματα. Δεν πρέπει να χρησιμοποιείτε το χρήστη root ως τον καθημερινό λογαριασμό χρήστη σας. Εισαγάγετε το όνομα για έναν νέο (προεπιλεγμένο) λογαριασμό χρήστη που θα χρησιμοποιείτε σε καθημερινή βάση. Εάν χρειαστεί, μπορείτε να προσθέσετε άλλους λογαριασμούς χρηστών αργότερα με τη Διαχείριση χρηστών %1. </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1474,7 +1460,7 @@ Do you really want to stop now?</source>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Λυπούμαστε, το όνομα του υπολογιστή σας περιέχει μη έγκυρους χαρακτήρες.
 Θα πρέπει να επιλέξετε διαφορετικό
@@ -1488,7 +1474,7 @@ name before proceeding.</source>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Λυπούμαστε, ο τομέας του υπολογιστή σας περιέχει μη έγκυρους χαρακτήρες.
 Θα πρέπει να επιλέξετε διαφορετικό
@@ -1647,118 +1633,6 @@ Please select a different name.</source>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>Αποτυχία κλεισίματος %1 </translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Μη έγκυρη ετικέτα υποτόμου</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Διπλότυπη ετικέτα υποτόμου</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Μη έγκυρη χρήση για %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">Το %1 είναι ήδη επιλεγμένο για: %2 </translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Απαιτείται ένα διαμέρισμα root τουλάχιστον %1</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Δεν είναι δυνατή η διατήρηση /home εντός της root (/) εάν έχει τοποθετηθεί επίσης ξεχωριστό διαμέρισμα /home. </translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Ετοιμάστε το %1 πίνακα διαμερισμάτων στο %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Επαναχρησιμοποίηση (χωρίς αναδιαμόρφωση) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Διαμόρφωση %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Μορφοποιήστε %1 για χρήση για %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Επαναχρησιμοποίηση (χωρίς αναδιαμόρφωση) %1 ως %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Διαγράψτε τα δεδομένα στο %1 εκτός από το /home, για χρήση για το %2 </translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Δημιουργία %1 χωρίς μορφοποίηση</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Δημιουργία %1, μορφοποίηση για χρήση για %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Επαναχρησιμοποίηση του υποτόμου %1 ως %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Διαγραφή υποτόμου %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Αντικατάσταση του υποτόμου %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Αντικαταστήστε τον υποτόμο %1 για χρήση για το %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Δημιουργία υποτόμου %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Δημιουργήστε τον υποτόμο %1 για χρήση για το %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Πρέπει να επιλέξετε ξεχωριστό διαμέρισμα εκκίνησης κατά την κρυπτογράφηση του root.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Θέλετε να συνεχίσετε;</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">Το %1 (%2) απαιτεί %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Η εγκατάσταση ενδέχεται να αποτύχει επειδή οι ακόλουθοι τόμοι είναι πολύ μικροί:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Αυτό το σύστημα χρησιμοποιεί EFI, αλλά κανένα έγκυρο διαμέρισμα συστήματος EFI δεν έχει εκχωρηθεί ξεχωριστά στο /boot/efi.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Ο τόμος που έχει εκχωρηθεί στο /boot/efi δεν είναι έγκυρο διαμέρισμα συστήματος EFI.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Οι ακόλουθες μονάδες δίσκου είναι ή θα είναι, εγκατεστημένες με GPT, αλλά δεν διαθέτουν διαμέρισμα BIOS-GRUB:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Αυτό το σύστημα μπορεί να μην εκκινείται από μονάδες GPT χωρίς διαμέρισμα BIOS-GRUB. </translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2033,7 +1907,7 @@ Not recommended unless the installation media is guaranteed to be free from erro
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Το πρόγραμμα εγκατάστασης δεν θα ξεκινήσει επειδή φαίνεται να τρέχει ήδη στο background.

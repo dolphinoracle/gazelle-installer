@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="fi">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="fi">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Pidä hauskaa käyttäessäsi %1</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Valittua asemaa ei löydy.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Pidä hauskaa käyttäessäsi %1</translation>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>Epäkelpoja asetuksia on löytynyt asetustiedostossa (%1). Tarkista merkatut kentät sitä mukaa kun kohtaat niitä.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">VAROITUS: valittu asema omaa vähintään 2Tb kapasiteetin ja se pitää alustaa käyttäen GPT:tä. Joissakin järjestelmissä GPT-alustettu levy ei käynnisty.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Alusta ja käytä koko kiintolevyä (%1) %2:lle</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Pidä hauskaa käyttäessäsi %1</translation>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anna nimi uudelle (oletus) käyttäjälle, jota käytät päivittäin. Tarvittaessa voit lisätä muita käyttäjäiä myöhemmin %1 Käyttäjien hallinan avulla.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Root (järjestelmänvalvojan) tili</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Root-käyttäjä on samanlainen kuin järjestelmänvalvoja muissa käyttöjärjestelmissä. Sinun ei pitäisi käyttää root-käyttäjää päivittäisenä käyttäjätilinä.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>Root-tili on poistettu käytöstä MX Linuxissa, koska hallinnolliset tehtävät suoritetaan oletuskäyttäjän avulla.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">Pääkäyttäjä on kuten Järjestelmänvalvoja toisissa käyttöjärjestelmissä. Sinun ei pitäisi ikinä käyttää pääkäyttäjän tiliä normaalissa päivittäisessä käytössä. Ole hyvä ja syötä nimi uudelle (oletus) käyttäjätilille joka tulee olemaan sinulla päivittäiskäytössä. Mikäli tarpeellista, voit luoda uusia käyttäjätilejä myöhemmin %1 User Manager:in avulla.</translation>
+        <translation>Root-tilin käyttöönotto on erittäin suositeltavaa antiX Linuxille.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1474,7 +1460,7 @@ Haluatko varmasti lopettaa nyt?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Pahoittelut, tietokoneesi nimi sisältää epäkelpoja merkkejä.
 Sinun tulee valita eri
@@ -1488,7 +1474,7 @@ nimi ennen jatkamista.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Pahoittelut, tietokoneesi domain sisältää epäkelpoja merkkejä.
 Sinun tulee valita eri
@@ -1647,118 +1633,6 @@ Valitse eri nimi.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>%1 sulkeminen epäonnistui</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Virheellinen alitaltion nimi</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Päällekkäinen alitaltion nimi</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Käyttövirhe %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 on jo valittu: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Vähintään %1 root juuriosio vaaditaan.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">Mahdoton toteuttaa /home alla root (/), jos erillinen /home osio on otettu käyttöön.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Valmistele osiotaulu %1 %2:lle</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Käytä uudelleen (ei alusteta) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Alusta %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Alusta %1 käytettäväksi %2:lle</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Käytä uudelleen (ei alustusta) %1 as %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Poista data sijainnista %1 paitsi /home, käytettäväksi %2:lle</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Luo %1 ilman alustamista</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Luo %1 ja alusta se %2:lle</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Käytä alitaltiota %1 uudelleen nimellä %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Poista alitaltio %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Ylikirjoita alitaltio %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Ylikirjoita alitaltio %1 käytettäväksi %2:lle</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Luo alitaltio %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Luo alitaltio %1 käytettäväksi %2:lle</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Sinun täytyy valita erillinen käynnistysosio salataksesi juurihakemiston.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Haluatko varmasti jatkaa?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) vaatii %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Asennus voi epäonnistua, koska seuraavat asemat ovat liian pieniä:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Tämä tietokone käyttää EFI:ä, mutta kelvollista EFI osiota ei ole määritetty /boot/efi:lle erikseen.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Tiedostolle /boot/efi määritetty asema ei ole kelvollinen EFI-järjestelmäosio.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Seuraavat asemat on asennettu tai tullaan asentamaan GPT:n kanssa, mutta niissä ei ole BIOS-GRUB osiota:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Tämä tietokone ei välttämättä käynnisty GPT-asemilta ilman BIOS-GRUB osiota.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2027,7 +1901,7 @@ Not recommended unless the installation media is guaranteed to be free from erro
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Asennusohjelma ei käynnistynyt koska se näyttäisi olevan jo käynnissä.

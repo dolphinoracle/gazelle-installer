@@ -48,8 +48,12 @@
 #include "bootman.h"
 #include "swapman.h"
 
-#include "version.h"
 #include "minstall.h"
+
+// CODEBASE_VERSION should come from compiler flags.
+#ifndef CODEBASE_VERSION
+    #define CODEBASE_VERSION "0.0"
+#endif
 
 using namespace Qt::Literals::StringLiterals;
 
@@ -80,7 +84,7 @@ MInstall::MInstall(MIni &acfg, const QCommandLineParser &args, const QString &cf
     helpBackdrop = appConf.getString(u"HelpBackdrop"_s, u"/usr/share/gazelle-installer-data/backdrop-textbox.png"_s);
     appConf.setSection();
     gui.setupUi(this);
-    gui.listLog->addItem(u"Version " VERSION ""_s);
+    gui.listLog->addItem(u"Version "_s + qApp->applicationVersion());
     proc.setupUI(gui.listLog, gui.progInstall);
     gui.textHelp->installEventFilter(this);
     gui.boxInstall->hide();
@@ -116,6 +120,10 @@ MInstall::MInstall(MIni &acfg, const QCommandLineParser &args, const QString &cf
             startup();
             phase = PH_READY;
         } catch (const char *msg) {
+            if (checkmd5) {
+                delete checkmd5;
+                checkmd5 = nullptr;
+            }
             proc.unhalt();
             const bool closenow = (!msg || !*msg);
             if(!closenow) {
@@ -130,6 +138,7 @@ MInstall::MInstall(MIni &acfg, const QCommandLineParser &args, const QString &cf
 MInstall::~MInstall() {
     if (oobe) delete oobe;
     if (base) delete base;
+    if (checkmd5) delete checkmd5;
     if (bootman) delete bootman;
     if (swapman) delete swapman;
     if (partman) delete partman;
@@ -186,12 +195,10 @@ void MInstall::startup()
         // Check the installation media for errors (skip if not required).
         if (appArgs.isSet(u"media-check"_s)) nocheck = false;
         else if (appArgs.isSet(u"no-media-check"_s)) nocheck = true;
-        if(nocheck) proc.log(u"No media check"_s);
-        else {
+        if(nocheck) {
+            proc.log(u"No media check"_s);
+        } else {
             checkmd5 = new CheckMD5(proc, gui.labelSplash);
-            checkmd5->check(); // Must be separate from constructor for halt() to work.
-            delete checkmd5;
-            checkmd5 = nullptr;
         }
 
         crypto = new Crypto(proc, gui, this);
@@ -215,10 +222,10 @@ void MInstall::startup()
             link_block += "\n\n"_L1 + tr(link.toUtf8().constData()) + ": "_L1 + appConf.getString(link);
         }
         appConf.setSection();
-        gui.textReminders->setPlainText(tr("Support %1\n\n"
-            "%1 is supported by people like you. Some help others at the support forum - %2,"
-            " or translate help files into different languages, or make suggestions,"
-            " write documentation, or help test new software.").arg(PROJECTNAME, PROJECTFORUM)
+        gui.textReminders->setPlainText(tr("Support %1").arg(PROJECTNAME) + "\n\n"_L1
+            + tr("%1 is supported by people like you. Some help others at the support forum,"
+                " or translate help files into different languages, or make suggestions,"
+                " write documentation, or help test new software.").arg(PROJECTNAME)
             + '\n' + link_block);
     }
 
@@ -259,6 +266,14 @@ void MInstall::startup()
     gui.textCopyright->setPlainText(tr("%1 is an independent Linux distribution based on Debian Stable.\n\n"
         "%1 uses some components from MEPIS Linux which are released under an Apache free license."
         " Some MEPIS components have been modified for %1.\n\nEnjoy using %1").arg(PROJECTNAME));
+
+    // Wait for any outstanding MD5 checks to finish.
+    if (checkmd5) {
+        checkmd5->wait(); // On error this throws an exception.
+        delete checkmd5;
+        checkmd5 = nullptr;
+    }
+
     gotoPage(Step::TERMS);
 }
 
@@ -867,15 +882,19 @@ void MInstall::pageDisplayed(int next) noexcept
         break;
 
     case Step::SERVICES:
-        gui.textHelp->setText(tr("<p><b>Common Services to Enable</b><br/>Select any of these common services that you might need with your system configuration and the services will be started automatically when you start %1.</p>").arg(PROJECTNAME));
+        gui.textHelp->setText("<p><b>"_L1 + tr("Common Services to Enable") + "</b><br/>"
+            + tr("Select any of these common services that you might need with your system configuration"
+                " and the services will be started automatically when you start %1.").arg(PROJECTNAME) + "</p>"_L1);
         break;
 
     case Step::NETWORK:
-        gui.textHelp->setText(tr("<p><b>Computer Identity</b><br/>The computer name is a common unique name which will identify your computer if it is on a network. "
-                             "The computer domain is unlikely to be used unless your ISP or local network requires it.</p>"
-                             "<p>The computer and domain names can contain only alphanumeric characters, dots, hyphens. They cannot contain blank spaces, start or end with hyphens</p>"
-                             "<p>The SaMBa Server needs to be activated if you want to use it to share some of your directories or printer "
-                             "with a local computer that is running MS-Windows or Mac OSX.</p>"));
+        gui.textHelp->setText("<p><b>"_L1 + tr("Computer Identity") + "</b><br/>"
+            + tr("The computer name is a common unique name which will identify your computer if it is on a network.")
+            + tr("The computer domain is unlikely to be used unless your ISP or local network requires it.") + "</p>"_L1
+            "<p>"_L1 + tr("The computer and domain names can contain only alphanumeric characters, dots, hyphens. "
+                "They cannot contain blank spaces, start or end with hyphens.") + "</p>"_L1
+            "<p>"_L1 + tr("The SaMBa Server needs to be activated if you want to use it to share some of your directories or printer "
+                "with a local computer that is running MS-Windows or Mac OSX.") + "</p>"_L1);
         break;
 
     case Step::LOCALIZATION:
@@ -955,13 +974,16 @@ void MInstall::pageDisplayed(int next) noexcept
 
     case Step::END:
         gui.pushClose->setEnabled(false);
-        gui.textHelp->setText(tr("<p><b>Congratulations!</b><br/>You have completed the installation of %1</p>"
-                             "<p><b>Finding Applications</b><br/>There are hundreds of excellent applications installed with %1 "
-                             "The best way to learn about them is to browse through the Menu and try them. "
-                             "Many of the apps were developed specifically for the %1 project. "
-                             "These are shown in the main menus. "
-                             "<p>In addition %1 includes many standard Linux applications that are run only from the command line and therefore do not show up in the Menu.</p>").arg(PROJECTNAME)
-                             + "<p><b>"_L1 + tr("Enjoy using %1").arg(PROJECTNAME) + "</b></p>"_L1);
+        gui.textHelp->setText("<p><b>"_L1 + tr("Congratulations!") + "</b><br/>"_L1
+            + tr("You have completed the installation of %1.").arg(PROJECTNAME) + "</p>"_L1
+            "<p><b>"_L1 + tr("Finding Applications") + "</b><br/>"_L1
+            + tr("There are hundreds of excellent applications installed with %1."
+                " The best way to learn about them is to browse through the Menu and try them."
+                " Many of the apps were developed specifically for the %1 project."
+                " These are shown in the main menus.").arg(PROJECTNAME)
+            + "<p>"_L1 + tr("In addition %1 includes many standard Linux applications"
+                " that are run only from the command line and therefore do not show up in the Menu.").arg(PROJECTNAME)
+            + "</p><p><b>"_L1 + tr("Enjoy using %1").arg(PROJECTNAME) + "</b></p>"_L1);
         break;
     }
 

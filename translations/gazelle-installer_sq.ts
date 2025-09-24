@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sq">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sq">
 <context>
     <name>AutoPart</name>
     <message>
@@ -192,7 +190,7 @@ Shijoni përdorimin e %1-it</translation>
     <message>
         <location filename="../minstall.cpp" line="371"/>
         <source>Cannot find selected drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>S’gjendet dot disku i përzgjedhur.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="387"/>
@@ -238,14 +236,6 @@ Shijoni përdorimin e %1-it</translation>
         <location filename="../minstall.cpp" line="518"/>
         <source>Invalid settings found in configuration file (%1). Please review marked fields as you encounter them.</source>
         <translation>U gjetën rregullime të pavlefshme në kartelën e formësimit (%1). Ju lutemi, shqyrtoni fushat me shenjë, teksa hasni të tilla.</translation>
-    </message>
-    <message>
-        <source>WARNING: The selected drive has a capacity of at least 2TB and must be formatted using GPT. On some systems, a GPT-formatted disk will not boot.</source>
-        <translation type="vanished">KUJDES: Disku i përzgjedhur ka një kapacitet të paktën 2TB dhe duhet formatuar duke përdorur GPT. Në disa sisteme, një disk i formatuar me GPT s’do të arrijë të niset.</translation>
-    </message>
-    <message>
-        <source>Format and use the entire disk (%1) for %2</source>
-        <translation type="vanished">Formato dhe përdor krejt diskun (%1) për %2</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="563"/>
@@ -800,31 +790,27 @@ Shijoni përdorimin e %1-it</translation>
     <message>
         <location filename="../minstall.cpp" line="834"/>
         <source>Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ju lutemi, jepni një emër për një llogari përdoruesi të ri (parazgjedhje), të cilën do ta përdorni përditë. Në qoftë e nevojshme, më vonë mund të shtoni llogari të tjera përdoruesish, me Përgjegjës Përdoruesish %1.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="836"/>
         <source>Root (administrator) account</source>
-        <translation type="unfinished"></translation>
+        <translation>Llogari rrënjë (përgjegjësi)</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="837"/>
         <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account.</source>
-        <translation type="unfinished"></translation>
+        <translation>Në disa sisteme operativë, përdoruesi rrënjë është i ngjashëm me përdoruesin Përgjegjës. S’duhet të përdorni përdoruesin rrënjë si llogarinë tuaj të përditshme përdoruesi.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="839"/>
         <source>The root account is disabled on MX Linux, as administrative tasks are performed with an elevation prompt for the default user.</source>
-        <translation type="unfinished"></translation>
+        <translation>Në MX Linux, llogari rrënjë është çaktivizuar, ngaqë aktet administrative kryhen përmes një leje më të lartë për përdoruesin parazgjedhje.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="840"/>
         <source>Enabling the root account is strongly recommended for antiX Linux.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>The root user is similar to the Administrator user in some other operating systems. You should not use the root user as your daily user account. Please enter the name for a new (default) user account that you will use on a daily basis. If needed, you can add other user accounts later with %1 User Manager.</source>
-        <translation type="vanished">Përdoruesi rrënjë është i ngjashëm me përdoruesin Përgjegjës e disa sistemeve operativë të tjerë. S’duhet të përdorni përdoruesin rrënjë si llogarinë tuaj të përditshme të përdoruesit. Ju lutemi, jepni një emër për një llogari përdoruesi të ri (parazgjedhje), të cilën do ta përdorni përditë. Në qoftë e nevojshme, më vonë mund të shtoni llogari të tjera përdoruesish, me Përgjegjës Përdoruesish %1.</translation>
+        <translation>Aktivizimi i llogarisë rrënjë rekomandohet me forcë për antiX Linux.</translation>
     </message>
     <message>
         <location filename="../minstall.cpp" line="841"/>
@@ -1009,7 +995,7 @@ Doni vërtet të ndalet tani?</translation>
     <message>
         <location filename="../meinstall.ui" line="51"/>
         <source>Live Log</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../meinstall.ui" line="72"/>
@@ -1474,7 +1460,7 @@ Doni vërtet të ndalet tani?</translation>
     <message>
         <location filename="../oobe.cpp" line="355"/>
         <source>Sorry, your computer name contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Na ndjeni, emri i kompjuterit tuaj përmban shenja
 të pavlefshme. Do t’ju duhet të përzgjidhni
@@ -1488,7 +1474,7 @@ tjetër emër, para se të ecni më tej.</translation>
     <message>
         <location filename="../oobe.cpp" line="364"/>
         <source>Sorry, your computer domain contains invalid characters.
-You&apos;ll have to select a different
+You'll have to select a different
 name before proceeding.</source>
         <translation>Na ndjeni, përkatësia e kompjuterit tuaj përmban
 shenja të pavlefshme. Do t’ju duhet të përzgjidhni
@@ -1647,118 +1633,6 @@ Ju lutemi, përzgjidhni një emër tjetër.</translation>
         <location filename="../partman.cpp" line="673"/>
         <source>Failed to close %1</source>
         <translation>S’u arrit të mbyllet %1</translation>
-    </message>
-    <message>
-        <source>Invalid subvolume label</source>
-        <translation type="vanished">Etiketë nënvëllimi e pavlefshme</translation>
-    </message>
-    <message>
-        <source>Duplicate subvolume label</source>
-        <translation type="vanished">Etiketë nënvëllimi e përsëdytur</translation>
-    </message>
-    <message>
-        <source>Invalid use for %1: %2</source>
-        <translation type="vanished">Përdorim i pavlefshëm për %1: %2</translation>
-    </message>
-    <message>
-        <source>%1 is already selected for: %2</source>
-        <translation type="vanished">%1 është përzgjedhur tashmë për: %2</translation>
-    </message>
-    <message>
-        <source>A root partition of at least %1 is required.</source>
-        <translation type="vanished">Lypset një pjesë rrënjë të paktën %1.</translation>
-    </message>
-    <message>
-        <source>Cannot preserve /home inside root (/) if a separate /home partition is also mounted.</source>
-        <translation type="vanished">S’ruhet dot /home brenda rrënje (/), nëse ndarazi është montuar gjithashtu një pjesë /home.</translation>
-    </message>
-    <message>
-        <source>Prepare %1 partition table on %2</source>
-        <translation type="vanished">Përgatit tabelë pjesësh %1 te %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1</source>
-        <translation type="vanished">Ripërdore (pa riformatim) %1</translation>
-    </message>
-    <message>
-        <source>Format %1</source>
-        <translation type="vanished">Formato %1</translation>
-    </message>
-    <message>
-        <source>Format %1 to use for %2</source>
-        <translation type="vanished">Formatoje %1 për ta përdorur për %2</translation>
-    </message>
-    <message>
-        <source>Reuse (no reformat) %1 as %2</source>
-        <translation type="vanished">Ripërdor (pa formatim) %1 si %2</translation>
-    </message>
-    <message>
-        <source>Delete the data on %1 except for /home, to use for %2</source>
-        <translation type="vanished">Fshini të dhënat te %1, hiq ato në /home, që të përdoret për %2</translation>
-    </message>
-    <message>
-        <source>Create %1 without formatting</source>
-        <translation type="vanished">Krijoje %1 pa e formatuar</translation>
-    </message>
-    <message>
-        <source>Create %1, format to use for %2</source>
-        <translation type="vanished">Krijoje %1, formatoje për ta përdorur për %2</translation>
-    </message>
-    <message>
-        <source>Reuse subvolume %1 as %2</source>
-        <translation type="vanished">Ripërdor nënvëllimin %1 si %2</translation>
-    </message>
-    <message>
-        <source>Delete subvolume %1</source>
-        <translation type="vanished">Fshije nënvëllimin %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1</source>
-        <translation type="vanished">Mbishkruaje nënvëllimin %1</translation>
-    </message>
-    <message>
-        <source>Overwrite subvolume %1 to use for %2</source>
-        <translation type="vanished">Mbishkruaje nënvëllimin %1 për ta përdorur për %2</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1</source>
-        <translation type="vanished">Krijoje nënvëllimin %1</translation>
-    </message>
-    <message>
-        <source>Create subvolume %1 to use for %2</source>
-        <translation type="vanished">Krijoje nënvëllimin %1 për ta përdorur për %2</translation>
-    </message>
-    <message>
-        <source>You must choose a separate boot partition when encrypting root.</source>
-        <translation type="vanished">Kur fshehtëzohet rrënja, duhet të zgjidhni një pjesë nisjesh më vete.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to continue?</source>
-        <translation type="vanished">Jeni i sigurt se doni të vazhdohet?</translation>
-    </message>
-    <message>
-        <source>%1 (%2) requires %3</source>
-        <translation type="vanished">%1 (%2) lyp %3</translation>
-    </message>
-    <message>
-        <source>The installation may fail because the following volumes are too small:</source>
-        <translation type="vanished">Instalimi mund të dështojë, ngaqë vëllimet vijuese janë shumë të vegjël:</translation>
-    </message>
-    <message>
-        <source>This system uses EFI, but no valid EFI system partition was assigned to /boot/efi separately.</source>
-        <translation type="vanished">Ky sistem përdor EFI, por /boot/efi s’i qe përshoqëruar më vete një pjesë e vlefshme EFI sistemi.</translation>
-    </message>
-    <message>
-        <source>The volume assigned to /boot/efi is not a valid EFI system partition.</source>
-        <translation type="vanished">Vëllimi përshoqëruar /boot/efi s’është pjesë e vlefshme EFI sistemi.</translation>
-    </message>
-    <message>
-        <source>The following drives are, or will be, setup with GPT, but do not have a BIOS-GRUB partition:</source>
-        <translation type="vanished">Disqet pasues janë, ose të do të jenë, ujdisur me GPT, por nuk kanë një pjesë BIOS-GRUB:</translation>
-    </message>
-    <message>
-        <source>This system may not boot from GPT drives without a BIOS-GRUB partition.</source>
-        <translation type="vanished">Ky sistem mund të mos niset nga disqe GPT pa një pjesë BIOS-GRUB.</translation>
     </message>
     <message>
         <location filename="../partman.cpp" line="970"/>
@@ -2030,7 +1904,7 @@ Nuk rekomandohet, veç nëse është e garantuar se media e instalimit është p
     </message>
     <message>
         <location filename="../app.cpp" line="140"/>
-        <source>The installer won&apos;t launch because it appears to be running already in the background.
+        <source>The installer won't launch because it appears to be running already in the background.
 
 Please close it if possible, or run &apos;pkill minstall&apos; in terminal.</source>
         <translation>Instaluesi s’do të niset, ngaqë duket se është duke xhiruar tashmë në prapaskenë.
